@@ -1,0 +1,670 @@
+<bbgame source="STAT CREW Basketball" version="4.18.01" generated="8/29/2017">
+  <gametracker gameid="1501671"></gametracker>
+  <venue gameid="1617AF2"
+           visid="AF" visname="Air Force"
+           homeid="USU" homename="Utah State"
+           date="2/25/2017" location="Logan, Utah (Dee Glen Smith Spectrum)"
+           time="7 p.m." attend="8015" schednote="" start="" end="" duration=""
+           leaguegame="Y" neutralgame="N" postseason="N">
+    <officials text="Gregory Nixon, Bert Smith, Rick O'Neill"></officials>
+    <rules prds="2" minutes="20" minutesot="5" fouls="5" qh="H"></rules>
+  </venue>
+  <status complete="Y" period="2" clock="00:00" running="F"></status>
+  <team vh="V" id="AF" name="Air Force" code="721" record="11-18/4-12 MW">
+    <linescore line="26,32" score="58">
+      <lineprd prd="1" score="26"></lineprd>
+      <lineprd prd="2" score="32"></lineprd>
+    </linescore>
+    <totals>
+      <stats fgm="22" fga="54" fgm3="6" fga3="21" ftm="8" fta="17" tp="58" blk="1" stl="6" ast="11" min="200" oreb="8" dreb="19" treb="27" pf="15" tf="0" to="13" deadball="5,0"
+             fgpct="40.7" fg3pct="28.6" ftpct="47.1"></stats>
+      <statsbyprd prd="1" fgm="10" fga="24" fgm3="4" fga3="10" ftm="2" fta="4" tp="26" blk="0" stl="3" ast="8" min="100" oreb="2" dreb="8" treb="10" pf="6" tf="0" to="8"></statsbyprd>
+      <statsbyprd prd="2" fgm="12" fga="30" fgm3="2" fga3="11" ftm="6" fta="13" tp="32" blk="1" stl="3" ast="3" min="100" oreb="6" dreb="11" treb="17" pf="9" tf="0" to="5"></statsbyprd>
+      <special vh="V" pts_to="7" pts_ch2="6" pts_paint="26" pts_fastb="4" pts_bench="25" ties="0" leads="0"
+               poss_count="68" poss_time="1182" score_count="24" score_time="459" lead_time="0" tied_time="100"></special>
+    </totals>
+    <player uni="00" code="00" name="MORRIS, Caleb" checkname="MORRIS,CALEB" class="" gp="1" oncourt="Y">
+      <stats fgm="0" fga="3" fgm3="0" fga3="3" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="3" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="01" code="01" name="NORMAN, Dane" checkname="NORMAN,DANE" class="" gp="0"></player>
+    <player uni="02" code="02" name="SIPLES, CJ" checkname="SIPLES,CJ" class="" gp="1">
+      <stats fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="03" code="03" name="TOMES, Sid" checkname="TOMES,SID" class="" gp="1" gs="1" pos="g">
+      <stats fgm="1" fga="3" fgm3="1" fga3="3" ftm="0" fta="0" tp="3" blk="0" stl="2" ast="0" min="13" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="2" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="04" code="04" name="HUMMER, Danny" checkname="HUMMER,DANNY" class="" gp="0"></player>
+    <player uni="05" code="05" name="KOCUR, Zach" checkname="KOCUR,ZACH" class="" gp="1" gs="1" pos="g">
+      <stats fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="2" min="22" oreb="1" dreb="1" treb="2" pf="2" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="12" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="10" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="10" code="10" name="WELLS, Nick" checkname="WELLS,NICK" class="" gp="0"></player>
+    <player uni="12" code="12" name="SCOTTIE, Lavelle" checkname="SCOTTIE,LAVELLE" class="" gp="1">
+      <stats fgm="3" fga="5" fgm3="0" fga3="2" ftm="4" fta="5" tp="10" blk="0" stl="1" ast="1" min="13" oreb="1" dreb="2" treb="3" pf="3" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="2" fta="2" tp="4" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="0" fga3="2" ftm="2" fta="3" tp="6" blk="0" stl="1" ast="0" min="8" oreb="1" dreb="2" treb="3" pf="3" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="13" code="13" name="BROWN, LaSean" checkname="BROWN,LASEAN" class="" gp="1" oncourt="Y">
+      <stats fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="3" tp="2" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="3" tp="2" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="15" code="15" name="VAN, Jacob" checkname="VAN,JACOB" class="" gp="1">
+      <stats fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="3" min="18" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="4" dq="0"></stats>
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="2" min="10" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="2" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"></statsbyprd>
+    </player>
+    <player uni="20" code="20" name="LYONS, Trevor" checkname="LYONS,TREVOR" class="" gp="1">
+      <stats fgm="2" fga="6" fgm3="0" fga3="1" ftm="0" fta="2" tp="4" blk="0" stl="0" ast="0" min="18" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="3" fgm3="0" fga3="0" ftm="0" fta="2" tp="4" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="22" code="22" name="LOUDER, Pervis" checkname="LOUDER,PERVIS" class="" gp="1">
+      <stats fgm="0" fga="4" fgm3="0" fga3="0" ftm="2" fta="4" tp="2" blk="1" stl="1" ast="1" min="16" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="2" tp="0" blk="0" stl="0" ast="1" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="1" stl="1" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="23" code="23" name="BETTS, Kobi" checkname="BETTS,KOBI" class="" gp="0"></player>
+    <player uni="25" code="25" name="BROEKHUIS, Kyle" checkname="BROEKHUIS,KYLE" class="" gp="0"></player>
+    <player uni="30" code="30" name="DEWANE, Jonathan" checkname="DEWANE,JONATHAN" class="" gp="1" oncourt="Y">
+      <stats fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="31" code="31" name="SCHEER, Garett" checkname="SCHEER,GARETT" class="" gp="0"></player>
+    <player uni="32" code="32" name="MANNING, Ryan" checkname="MANNING,RYAN" class="" gp="1" gs="1" pos="f">
+      <stats fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="2" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="2" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="33" code="33" name="TOOHEY, Frank" checkname="TOOHEY,FRANK" class="" gp="1" gs="1" pos="c">
+      <stats fgm="4" fga="6" fgm3="1" fga3="1" ftm="0" fta="0" tp="9" blk="0" stl="0" ast="2" min="22" oreb="1" dreb="4" treb="5" pf="2" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="3" fga="5" fgm3="1" fga3="1" ftm="0" fta="0" tp="7" blk="0" stl="0" ast="2" min="15" oreb="0" dreb="4" treb="4" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="35" code="35" name="GRAHAM, Hayden" checkname="GRAHAM,HAYDEN" class="" gp="1" gs="1" pos="f">
+      <stats fgm="8" fga="11" fgm3="3" fga3="4" ftm="2" fta="3" tp="21" blk="0" stl="1" ast="1" min="30" oreb="2" dreb="4" treb="6" pf="1" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="5" fga="7" fgm3="2" fga3="3" ftm="0" fta="0" tp="12" blk="0" stl="1" ast="1" min="17" oreb="1" dreb="3" treb="4" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="3" fga="4" fgm3="1" fga3="1" ftm="2" fta="3" tp="9" blk="0" stl="0" ast="0" min="13" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="40" code="40" name="LEONARD, Brendan" checkname="LEONARD,BRENDAN" class="" gp="0"></player>
+    <player uni="41" code="41" name="CULP, Keegan" checkname="CULP,KEEGAN" class="" gp="1" oncourt="Y">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="43" code="43" name="SWAN, Ryan" checkname="SWAN,RYAN" class="" gp="1" oncourt="Y">
+      <stats fgm="2" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="4" blk="0" stl="1" ast="0" min="10" oreb="1" dreb="0" treb="1" pf="2" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="0" stl="1" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" class="" gp="1">
+      <stats oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+  </team>
+  <team vh="H" id="USU" name="Utah State" code="731" record="13-15/7-10 MW">
+    <linescore line="46,43" score="89">
+      <lineprd prd="1" score="46"></lineprd>
+      <lineprd prd="2" score="43"></lineprd>
+    </linescore>
+    <totals>
+      <stats fgm="34" fga="57" fgm3="13" fga3="25" ftm="8" fta="10" tp="89" blk="2" stl="4" ast="27" min="200" oreb="5" dreb="28" treb="33" pf="18" tf="0" to="10" deadball="1,0"
+             fgpct="59.6" fg3pct="52.0" ftpct="80.0"></stats>
+      <statsbyprd prd="1" fgm="19" fga="31" fgm3="7" fga3="12" ftm="1" fta="1" tp="46" blk="0" stl="1" ast="14" min="100" oreb="4" dreb="13" treb="17" pf="6" tf="0" to="6"></statsbyprd>
+      <statsbyprd prd="2" fgm="15" fga="26" fgm3="6" fga3="13" ftm="7" fta="9" tp="43" blk="2" stl="3" ast="13" min="100" oreb="1" dreb="15" treb="16" pf="12" tf="0" to="4"></statsbyprd>
+      <special vh="H" pts_to="16" pts_ch2="4" pts_paint="38" pts_fastb="15" pts_bench="32" ties="0" leads="0"
+               poss_count="68" poss_time="1218" score_count="38" score_time="666" lead_time="2300" tied_time="100" large_lead="33" large_lead_t="2nd-00:33"></special>
+    </totals>
+    <player uni="00" code="00" name="RECTOR, Shane" checkname="RECTOR,SHANE" class="SR" gp="1" gs="1" pos="g">
+      <stats fgm="3" fga="6" fgm3="0" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="1" ast="5" min="23" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="2" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="2" min="14" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="3" min="9" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="01" code="01" name="McEWEN, Koby" checkname="MCEWEN,KOBY" class="FR" gp="1">
+      <stats fgm="3" fga="6" fgm3="2" fga3="4" ftm="0" fta="0" tp="8" blk="0" stl="0" ast="6" min="25" oreb="0" dreb="8" treb="8" pf="3" tf="0" to="2" dq="0"></stats>
+      <statsbyprd prd="1" fgm="2" fga="4" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="1" min="14" oreb="0" dreb="4" treb="4" pf="1" tf="0" to="2" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="5" min="11" oreb="0" dreb="4" treb="4" pf="2" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="02" code="02" name="STALL, Klay" checkname="STALL,KLAY" class="FR" gp="0"></player>
+    <player uni="03" code="03" name="MERRILL, Sam" checkname="MERRILL,SAM" class="FR" gp="1" gs="1" pos="g" oncourt="Y">
+      <stats fgm="4" fga="6" fgm3="2" fga3="4" ftm="2" fta="2" tp="12" blk="0" stl="1" ast="9" min="28" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="2" fga="2" fgm3="1" fga3="1" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="6" min="17" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="1" fga3="3" ftm="2" fta="2" tp="7" blk="0" stl="1" ast="3" min="11" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="05" code="05" name="PEARRE, Julion" checkname="PEARRE,JULION" class="JR" gp="1" oncourt="Y">
+      <stats fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="1" min="14" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="1" min="9" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="10" code="10" name="TAYLOR, Quinn" checkname="TAYLOR,QUINN" class="SO" gp="1" oncourt="Y">
+      <stats fgm="6" fga="10" fgm3="0" fga3="0" ftm="1" fta="1" tp="13" blk="0" stl="1" ast="0" min="19" oreb="2" dreb="3" treb="5" pf="3" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="6" fga="9" fgm3="0" fga3="0" ftm="1" fta="1" tp="13" blk="0" stl="0" ast="0" min="10" oreb="2" dreb="1" treb="3" pf="2" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="9" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="11" code="11" name="DARGENTON, Alexis" checkname="DARGENTON,ALEXIS" class="SO" gp="1" oncourt="Y">
+      <stats fgm="2" fga="2" fgm3="0" fga3="0" ftm="2" fta="2" tp="6" blk="2" stl="1" ast="2" min="16" oreb="1" dreb="2" treb="3" pf="2" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="2" min="5" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="0" fga3="0" ftm="2" fta="2" tp="6" blk="2" stl="0" ast="0" min="11" oreb="0" dreb="2" treb="2" pf="2" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="13" code="13" name="BARNABA, Ngor" checkname="BARNABA,NGOR" class="JR" gp="1">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="14" code="14" name="MOORE, Jalen" checkname="MOORE,JALEN" class="SR" gp="1" gs="1" pos="f">
+      <stats fgm="8" fga="12" fgm3="5" fga3="7" ftm="3" fta="4" tp="24" blk="0" stl="0" ast="3" min="35" oreb="0" dreb="5" treb="5" pf="1" tf="0" to="2" dq="0"></stats>
+      <statsbyprd prd="1" fgm="5" fga="7" fgm3="3" fga3="4" ftm="0" fta="0" tp="13" blk="0" stl="0" ast="2" min="19" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="3" fga="5" fgm3="2" fga3="3" ftm="3" fta="4" tp="11" blk="0" stl="0" ast="1" min="16" oreb="0" dreb="3" treb="3" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="15" code="15" name="JANICEK, Norbert" checkname="JANICEK,NORBERT" class="SO" gp="1" gs="1" pos="f">
+      <stats fgm="3" fga="7" fgm3="0" fga3="0" ftm="0" fta="1" tp="6" blk="0" stl="0" ast="0" min="21" oreb="1" dreb="6" treb="7" pf="3" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="10" oreb="1" dreb="3" treb="4" pf="2" tf="0" to="1" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="0" fga3="0" ftm="0" fta="1" tp="4" blk="0" stl="0" ast="0" min="11" oreb="0" dreb="3" treb="3" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="23" code="23" name="HENSON, Daron" checkname="HENSON,DARON" class="FR" gp="0"></player>
+    <player uni="24" code="24" name="BRITO, Diogo" checkname="BRITO,DIOGO" class="FR" gp="1" oncourt="Y">
+      <stats fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+    <player uni="25" code="25" name="GARNER, Connor" checkname="GARNER,CONNOR" class="SR" gp="1" gs="1" pos="g">
+      <stats fgm="3" fga="5" fgm3="3" fga3="5" ftm="0" fta="0" tp="9" blk="0" stl="0" ast="1" min="14" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="1" dq="0"></stats>
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" fgm="2" fga="3" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"></statsbyprd>
+    </player>
+    <player uni="30" code="30" name="PORTER, Abel" checkname="PORTER,ABEL" class="FR" gp="0"></player>
+    <player uni="32" code="32" name="DORIUS, Trevin" checkname="DORIUS,TREVIN" class="FR" gp="0"></player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" class="" gp="1">
+      <stats oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"></stats>
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+      <statsbyprd prd="2" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>
+    </player>
+  </team>
+  <byprdsummaries>
+    <byprdsummary prd="1">
+      <summary vh="V" score="26" fgm="10" fga="24" fgm3="4" fga3="10" ftm="2" fta="4" blk="0" stl="3" ast="9"
+               oreb="2" dreb="8" treb="10" pf="6" tf="0" to="8" fgpct="41.7" fg3pct="40.0" ftpct="50.0"></summary>
+      <summary vh="H" score="46" fgm="19" fga="31" fgm3="7" fga3="12" ftm="1" fta="1" blk="0" stl="1" ast="14"
+               oreb="4" dreb="13" treb="17" pf="6" tf="0" to="6" fgpct="61.3" fg3pct="58.3" ftpct="100.0"></summary>
+      <special vh="V" pts_to="5" pts_ch2="0" pts_paint="10" pts_fastb="2" pts_bench="7" ties="0" leads="0"
+               poss_count="33" poss_time="579" score_count="11" score_time="176" lead_time="0" tied_time="100"></special>
+      <special vh="H" pts_to="8" pts_ch2="4" pts_paint="22" pts_fastb="8" pts_bench="19" ties="0" leads="0"
+               poss_count="34" poss_time="621" score_count="19" score_time="372" lead_time="1100" tied_time="100" large_lead="-" large_lead_t="-"></special>
+    </byprdsummary>
+    <byprdsummary prd="2">
+      <summary vh="V" score="32" fgm="12" fga="30" fgm3="2" fga3="11" ftm="6" fta="13" blk="1" stl="3" ast="7"
+               oreb="6" dreb="11" treb="17" pf="9" tf="0" to="5" fgpct="40.0" fg3pct="18.2" ftpct="46.2"></summary>
+      <summary vh="H" score="43" fgm="15" fga="26" fgm3="6" fga3="13" ftm="7" fta="9" blk="2" stl="3" ast="14"
+               oreb="1" dreb="15" treb="16" pf="12" tf="0" to="4" fgpct="57.7" fg3pct="46.2" ftpct="77.8"></summary>
+      <special vh="V" pts_to="2" pts_ch2="6" pts_paint="16" pts_fastb="2" pts_bench="18" ties="0" leads="0"
+               poss_count="35" poss_time="603" score_count="13" score_time="283" lead_time="0" tied_time="0"></special>
+      <special vh="H" pts_to="8" pts_ch2="0" pts_paint="16" pts_fastb="7" pts_bench="13" ties="0" leads="0"
+               poss_count="34" poss_time="597" score_count="19" score_time="294" lead_time="1200" tied_time="0" large_lead="-" large_lead_t="-"></special>
+    </byprdsummary>
+  </byprdsummaries>
+  <plays format="tokens">
+    <period number="1" time="20:00">
+      <special vh="V" pts_to="5" pts_ch2="0" pts_paint="10" pts_fastb="2" pts_bench="7" ties="0" leads="0"
+               poss_count="33" poss_time="579" score_count="11" score_time="176" lead_time="0" tied_time="100"></special>
+      <special vh="H" pts_to="8" pts_ch2="4" pts_paint="22" pts_fastb="8" pts_bench="19" ties="0" leads="0"
+               poss_count="34" poss_time="621" score_count="19" score_time="372" lead_time="1100" tied_time="100" large_lead="-" large_lead_t="-"></special>
+      <summary vh="V" fgm="10" fga="24" fgm3="4" fga3="10" ftm="2" fta="4" blk="0" stl="3" ast="8"
+               oreb="2" dreb="8" treb="10" pf="6" tf="0" to="8"></summary>
+      <summary vh="H" fgm="19" fga="31" fgm3="7" fga3="12" ftm="1" fta="1" blk="0" stl="1" ast="14"
+               oreb="4" dreb="13" treb="17" pf="6" tf="0" to="6"></summary>
+      <play vh="H" time="19:40" uni="00" team="USU" checkname="RECTOR,SHANE" action="MISS" type="3PTR"></play>
+      <play vh="V" time="19:40" uni="05" team="AF" checkname="KOCUR,ZACH" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="19:05" uni="TM" team="AF" checkname="TEAM" action="TURNOVER"></play>
+      <play vh="H" time="18:48" uni="14" team="USU" checkname="MOORE,JALEN" action="MISS" type="3PTR"></play>
+      <play vh="V" time="18:48" uni="33" team="AF" checkname="TOOHEY,FRANK" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="18:38" uni="32" team="AF" checkname="MANNING,RYAN" action="TURNOVER"></play>
+      <play vh="H" time="18:20" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="2"></play>
+      <play vh="V" time="18:00" uni="03" team="AF" checkname="TOMES,SID" action="MISS" type="3PTR"></play>
+      <play vh="H" time="18:00" uni="14" team="USU" checkname="MOORE,JALEN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="17:41" uni="15" team="USU" checkname="JANICEK,NORBERT" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="17:41" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="17:26" uni="32" team="AF" checkname="MANNING,RYAN" action="TURNOVER"></play>
+      <play vh="H" time="17:09" uni="25" team="USU" checkname="GARNER,CONNOR" action="MISS" type="3PTR"></play>
+      <play vh="V" time="17:09" uni="33" team="AF" checkname="TOOHEY,FRANK" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="16:35" uni="32" team="AF" checkname="MANNING,RYAN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="16:35" uni="14" team="USU" checkname="MOORE,JALEN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="16:18" uni="15" team="USU" checkname="JANICEK,NORBERT" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="4"></play>
+      <play vh="H" time="16:18" uni="25" team="USU" checkname="GARNER,CONNOR" action="ASSIST"></play>
+      <play vh="H" time="16:02" uni="03" team="USU" checkname="MERRILL,SAM" action="FOUL"></play>
+      <play vh="V" time="15:43" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="15:43" uni="32" team="AF" checkname="MANNING,RYAN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="15:40" uni="32" team="AF" checkname="MANNING,RYAN" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="15:40" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="15:32" uni="00" team="USU" checkname="RECTOR,SHANE" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="0" hscore="6"></play>
+      <play vh="H" time="15:32" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="15:14" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="3PTR" vscore="3" hscore="6"></play>
+      <play vh="V" time="15:14" uni="33" team="AF" checkname="TOOHEY,FRANK" action="ASSIST"></play>
+      <play vh="H" time="14:51" uni="25" team="USU" checkname="GARNER,CONNOR" action="GOOD" type="3PTR" vscore="3" hscore="9"></play>
+      <play vh="H" time="14:51" uni="14" team="USU" checkname="MOORE,JALEN" action="ASSIST"></play>
+      <play vh="V" time="14:28" uni="33" team="AF" checkname="TOOHEY,FRANK" action="GOOD" type="LAYUP" paint="Y" vscore="5" hscore="9"></play>
+      <play vh="V" time="14:28" uni="05" team="AF" checkname="KOCUR,ZACH" action="ASSIST"></play>
+      <play vh="H" time="14:04" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="3PTR" vscore="5" hscore="12"></play>
+      <play vh="H" time="14:04" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="13:47" uni="33" team="AF" checkname="TOOHEY,FRANK" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="13:47" uni="25" team="USU" checkname="GARNER,CONNOR" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="13:38" uni="14" team="USU" checkname="MOORE,JALEN" action="TURNOVER"></play>
+      <play vh="V" time="13:38" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="13:38" uni="15" team="AF" checkname="VAN,JACOB" action="SUB" type="IN"></play>
+      <play vh="V" time="13:38" uni="22" team="AF" checkname="LOUDER,PERVIS" action="SUB" type="IN"></play>
+      <play vh="V" time="13:38" uni="20" team="AF" checkname="LYONS,TREVOR" action="SUB" type="IN"></play>
+      <play vh="V" time="13:38" uni="03" team="AF" checkname="TOMES,SID" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:38" uni="05" team="AF" checkname="KOCUR,ZACH" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:38" uni="32" team="AF" checkname="MANNING,RYAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:38" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="IN"></play>
+      <play vh="H" time="13:38" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="IN"></play>
+      <play vh="H" time="13:38" uni="01" team="USU" checkname="MCEWEN,KOBY" action="SUB" type="IN"></play>
+      <play vh="H" time="13:38" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:38" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:38" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:10" uni="15" team="AF" checkname="VAN,JACOB" action="TURNOVER"></play>
+      <play vh="H" time="13:09" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="STEAL"></play>
+      <play vh="H" time="13:06" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="5" hscore="14"></play>
+      <play vh="H" time="13:06" uni="00" team="USU" checkname="RECTOR,SHANE" action="ASSIST"></play>
+      <play vh="V" time="13:06" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="FOUL"></play>
+      <play vh="H" time="13:06" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="FT" vscore="5" hscore="15"></play>
+      <play vh="V" time="12:56" uni="33" team="AF" checkname="TOOHEY,FRANK" action="GOOD" type="LAYUP" paint="Y" vscore="7" hscore="15"></play>
+      <play vh="V" time="12:56" uni="15" team="AF" checkname="VAN,JACOB" action="ASSIST"></play>
+      <play vh="H" time="12:35" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" vscore="7" hscore="17"></play>
+      <play vh="H" time="12:35" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="ASSIST"></play>
+      <play vh="V" time="12:22" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="3PTR" vscore="10" hscore="17"></play>
+      <play vh="V" time="12:22" uni="33" team="AF" checkname="TOOHEY,FRANK" action="ASSIST"></play>
+      <play vh="V" time="12:04" uni="33" team="AF" checkname="TOOHEY,FRANK" action="FOUL"></play>
+      <play vh="V" time="12:04" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="SUB" type="IN"></play>
+      <play vh="V" time="12:04" uni="33" team="AF" checkname="TOOHEY,FRANK" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:45" uni="10" team="USU" checkname="TAYLOR,QUINN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="11:45" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="11:42" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" vscore="10" hscore="19"></play>
+      <play vh="H" time="11:42" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="ASSIST"></play>
+      <play vh="V" time="11:28" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="LAYUP" paint="Y" vscore="12" hscore="19"></play>
+      <play vh="V" time="11:28" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="ASSIST"></play>
+      <play vh="H" time="11:10" uni="01" team="USU" checkname="MCEWEN,KOBY" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="11:10" uni="10" team="USU" checkname="TAYLOR,QUINN" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="11:00" uni="10" team="USU" checkname="TAYLOR,QUINN" action="MISS" type="TIPIN"></play>
+      <play vh="V" time="11:00" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="11:00" uni="01" team="USU" checkname="MCEWEN,KOBY" action="FOUL"></play>
+      <play vh="V" time="11:00" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="media"></play>
+      <play vh="H" time="11:00" uni="05" team="USU" checkname="PEARRE,JULION" action="SUB" type="IN"></play>
+      <play vh="H" time="11:00" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="IN"></play>
+      <play vh="H" time="11:00" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:00" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="OUT"></play>
+      <play vh="V" time="10:47" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="3PTR"></play>
+      <play vh="V" time="10:47" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="10:39" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="10:39" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="10:26" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" vscore="12" hscore="21"></play>
+      <play vh="H" time="10:26" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="H" time="10:09" uni="10" team="USU" checkname="TAYLOR,QUINN" action="FOUL"></play>
+      <play vh="V" time="10:09" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="FT" vscore="13" hscore="21"></play>
+      <play vh="V" time="10:09" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="FT" vscore="14" hscore="21"></play>
+      <play vh="H" time="10:09" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="IN"></play>
+      <play vh="H" time="10:09" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="IN"></play>
+      <play vh="H" time="10:09" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="OUT"></play>
+      <play vh="H" time="10:09" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="OUT"></play>
+      <play vh="H" time="09:42" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="3PTR" vscore="14" hscore="24"></play>
+      <play vh="V" time="09:16" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="09:16" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="09:06" uni="22" team="AF" checkname="LOUDER,PERVIS" action="FOUL"></play>
+      <play vh="V" time="09:06" uni="05" team="AF" checkname="KOCUR,ZACH" action="SUB" type="IN"></play>
+      <play vh="V" time="09:06" uni="22" team="AF" checkname="LOUDER,PERVIS" action="SUB" type="OUT"></play>
+      <play vh="H" time="08:56" uni="01" team="USU" checkname="MCEWEN,KOBY" action="GOOD" type="3PTR" vscore="14" hscore="27"></play>
+      <play vh="V" time="08:32" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="LAYUP" paint="Y" vscore="16" hscore="27"></play>
+      <play vh="H" time="08:19" uni="01" team="USU" checkname="MCEWEN,KOBY" action="GOOD" type="3PTR" vscore="16" hscore="30"></play>
+      <play vh="H" time="08:19" uni="14" team="USU" checkname="MOORE,JALEN" action="ASSIST"></play>
+      <play vh="H" time="08:03" uni="15" team="USU" checkname="JANICEK,NORBERT" action="FOUL"></play>
+      <play vh="H" time="08:03" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="IN"></play>
+      <play vh="H" time="08:03" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="OUT"></play>
+      <play vh="V" time="08:02" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="JUMPER" vscore="18" hscore="30"></play>
+      <play vh="V" time="08:02" uni="15" team="AF" checkname="VAN,JACOB" action="ASSIST"></play>
+      <play vh="H" time="07:40" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="3PTR" vscore="18" hscore="33"></play>
+      <play vh="H" time="07:40" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="07:15" uni="15" team="AF" checkname="VAN,JACOB" action="TURNOVER"></play>
+      <play vh="V" time="07:15" uni="15" team="AF" checkname="VAN,JACOB" action="FOUL"></play>
+      <play vh="H" time="07:15" uni="TM" team="USU" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="07:15" uni="33" team="AF" checkname="TOOHEY,FRANK" action="SUB" type="IN"></play>
+      <play vh="V" time="07:15" uni="32" team="AF" checkname="MANNING,RYAN" action="SUB" type="IN"></play>
+      <play vh="V" time="07:15" uni="20" team="AF" checkname="LYONS,TREVOR" action="SUB" type="OUT"></play>
+      <play vh="V" time="07:15" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="SUB" type="OUT"></play>
+      <play vh="H" time="07:05" uni="05" team="USU" checkname="PEARRE,JULION" action="TURNOVER"></play>
+      <play vh="V" time="07:04" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="STEAL"></play>
+      <play vh="V" time="07:02" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="DUNK" paint="Y" fastb="Y" vscore="20" hscore="33"></play>
+      <play vh="H" time="06:44" uni="10" team="USU" checkname="TAYLOR,QUINN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="06:44" uni="10" team="USU" checkname="TAYLOR,QUINN" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="06:34" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" vscore="20" hscore="35"></play>
+      <play vh="H" time="06:34" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="H" time="06:12" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="IN"></play>
+      <play vh="H" time="06:12" uni="05" team="USU" checkname="PEARRE,JULION" action="SUB" type="OUT"></play>
+      <play vh="V" time="06:04" uni="33" team="AF" checkname="TOOHEY,FRANK" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="06:04" uni="03" team="USU" checkname="MERRILL,SAM" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="05:47" uni="14" team="USU" checkname="MOORE,JALEN" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="05:47" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="05:29" uni="32" team="AF" checkname="MANNING,RYAN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="05:29" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="05:25" uni="01" team="USU" checkname="MCEWEN,KOBY" action="TURNOVER"></play>
+      <play vh="V" time="05:10" uni="33" team="AF" checkname="TOOHEY,FRANK" action="GOOD" type="3PTR" vscore="23" hscore="35"></play>
+      <play vh="V" time="05:10" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="ASSIST"></play>
+      <play vh="H" time="04:52" uni="10" team="USU" checkname="TAYLOR,QUINN" action="GOOD" type="LAYUP" paint="Y" vscore="23" hscore="37"></play>
+      <play vh="H" time="04:52" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="04:35" uni="05" team="AF" checkname="KOCUR,ZACH" action="TURNOVER"></play>
+      <play vh="V" time="04:35" uni="05" team="AF" checkname="KOCUR,ZACH" action="FOUL"></play>
+      <play vh="V" time="04:35" uni="22" team="AF" checkname="LOUDER,PERVIS" action="SUB" type="IN"></play>
+      <play vh="V" time="04:35" uni="43" team="AF" checkname="SWAN,RYAN" action="SUB" type="IN"></play>
+      <play vh="V" time="04:35" uni="32" team="AF" checkname="MANNING,RYAN" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:35" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="SUB" type="OUT"></play>
+      <play vh="H" time="04:18" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="3PTR" vscore="23" hscore="40"></play>
+      <play vh="H" time="04:18" uni="00" team="USU" checkname="RECTOR,SHANE" action="ASSIST"></play>
+      <play vh="V" time="04:04" uni="05" team="AF" checkname="KOCUR,ZACH" action="MISS" type="3PTR"></play>
+      <play vh="H" time="04:04" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="03:55" uni="00" team="USU" checkname="RECTOR,SHANE" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="23" hscore="42"></play>
+      <play vh="V" time="03:53" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="V" time="03:53" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="03:31" uni="15" team="AF" checkname="VAN,JACOB" action="GOOD" type="3PTR" vscore="26" hscore="42"></play>
+      <play vh="V" time="03:31" uni="22" team="AF" checkname="LOUDER,PERVIS" action="ASSIST"></play>
+      <play vh="V" time="03:16" uni="43" team="AF" checkname="SWAN,RYAN" action="FOUL"></play>
+      <play vh="V" time="03:16" uni="03" team="AF" checkname="TOMES,SID" action="SUB" type="IN"></play>
+      <play vh="V" time="03:16" uni="20" team="AF" checkname="LYONS,TREVOR" action="SUB" type="IN"></play>
+      <play vh="V" time="03:16" uni="15" team="AF" checkname="VAN,JACOB" action="SUB" type="OUT"></play>
+      <play vh="V" time="03:16" uni="05" team="AF" checkname="KOCUR,ZACH" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:10" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="JUMPER" vscore="26" hscore="44"></play>
+      <play vh="H" time="03:10" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="02:50" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="02:50" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="02:35" uni="01" team="USU" checkname="MCEWEN,KOBY" action="MISS" type="3PTR"></play>
+      <play vh="V" time="02:35" uni="33" team="AF" checkname="TOOHEY,FRANK" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="02:24" uni="43" team="AF" checkname="SWAN,RYAN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="02:24" uni="10" team="USU" checkname="TAYLOR,QUINN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="02:05" uni="00" team="USU" checkname="RECTOR,SHANE" action="TURNOVER"></play>
+      <play vh="V" time="02:04" uni="03" team="AF" checkname="TOMES,SID" action="STEAL"></play>
+      <play vh="H" time="02:00" uni="10" team="USU" checkname="TAYLOR,QUINN" action="FOUL"></play>
+      <play vh="V" time="02:00" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="FT"></play>
+      <play vh="V" time="02:00" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="02:00" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="FT"></play>
+      <play vh="H" time="02:00" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="02:00" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="SUB" type="IN"></play>
+      <play vh="V" time="02:00" uni="43" team="AF" checkname="SWAN,RYAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:00" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="IN"></play>
+      <play vh="H" time="02:00" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="IN"></play>
+      <play vh="H" time="02:00" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:00" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="OUT"></play>
+      <play vh="H" time="01:44" uni="01" team="USU" checkname="MCEWEN,KOBY" action="TURNOVER"></play>
+      <play vh="V" time="01:43" uni="03" team="AF" checkname="TOMES,SID" action="STEAL"></play>
+      <play vh="H" time="01:34" uni="15" team="USU" checkname="JANICEK,NORBERT" action="FOUL"></play>
+      <play vh="V" time="01:34" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="01:34" uni="03" team="USU" checkname="MERRILL,SAM" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="01:27" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="26" hscore="46"></play>
+      <play vh="V" time="01:12" uni="22" team="AF" checkname="LOUDER,PERVIS" action="TURNOVER"></play>
+      <play vh="H" time="00:58" uni="15" team="USU" checkname="JANICEK,NORBERT" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="00:58" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="00:37" uni="15" team="USU" checkname="JANICEK,NORBERT" action="TURNOVER"></play>
+      <play vh="V" time="00:29" uni="03" team="AF" checkname="TOMES,SID" action="TURNOVER"></play>
+      <play vh="H" time="00:27" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="IN"></play>
+      <play vh="H" time="00:27" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="OUT"></play>
+      <play vh="H" time="00:06" uni="00" team="USU" checkname="RECTOR,SHANE" action="MISS" type="3PTR"></play>
+      <play vh="V" time="00:06" uni="33" team="AF" checkname="TOOHEY,FRANK" action="REBOUND" type="DEF"></play>
+      <clock time="00:00"></clock>
+    </period>
+    <period number="2" time="20:00">
+      <special vh="V" pts_to="2" pts_ch2="6" pts_paint="16" pts_fastb="2" pts_bench="18" ties="0" leads="0"
+               poss_count="35" poss_time="603" score_count="13" score_time="283" lead_time="0" tied_time="0"></special>
+      <special vh="H" pts_to="8" pts_ch2="0" pts_paint="16" pts_fastb="7" pts_bench="13" ties="0" leads="0"
+               poss_count="34" poss_time="597" score_count="19" score_time="294" lead_time="1200" tied_time="0" large_lead="-" large_lead_t="-"></special>
+      <summary vh="V" fgm="12" fga="30" fgm3="2" fga3="11" ftm="6" fta="13" blk="1" stl="3" ast="3"
+               oreb="6" dreb="11" treb="17" pf="9" tf="0" to="5"></summary>
+      <summary vh="H" fgm="15" fga="26" fgm3="6" fga3="13" ftm="7" fta="9" blk="2" stl="3" ast="13"
+               oreb="1" dreb="15" treb="16" pf="12" tf="0" to="4"></summary>
+      <play vh="V" time="20:00" uni="22" team="AF" checkname="LOUDER,PERVIS" action="SUB" type="IN"></play>
+      <play vh="V" time="20:00" uni="15" team="AF" checkname="VAN,JACOB" action="SUB" type="IN"></play>
+      <play vh="V" time="20:00" uni="03" team="AF" checkname="TOMES,SID" action="SUB" type="OUT"></play>
+      <play vh="V" time="20:00" uni="32" team="AF" checkname="MANNING,RYAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="20:00" uni="01" team="USU" checkname="MCEWEN,KOBY" action="SUB" type="IN"></play>
+      <play vh="H" time="20:00" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="IN"></play>
+      <play vh="H" time="20:00" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="OUT"></play>
+      <play vh="H" time="20:00" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="OUT"></play>
+      <play vh="V" time="19:49" uni="05" team="AF" checkname="KOCUR,ZACH" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="19:49" uni="33" team="AF" checkname="TOOHEY,FRANK" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="19:26" uni="33" team="AF" checkname="TOOHEY,FRANK" action="GOOD" type="LAYUP" paint="Y" vscore="28" hscore="46"></play>
+      <play vh="V" time="19:26" uni="05" team="AF" checkname="KOCUR,ZACH" action="ASSIST"></play>
+      <play vh="H" time="19:05" uni="01" team="USU" checkname="MCEWEN,KOBY" action="GOOD" type="LAYUP" paint="Y" vscore="28" hscore="48"></play>
+      <play vh="H" time="19:05" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="18:47" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="18:47" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="18:42" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="3PTR" fastb="Y" vscore="28" hscore="51"></play>
+      <play vh="H" time="18:42" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="18:32" uni="15" team="AF" checkname="VAN,JACOB" action="TURNOVER"></play>
+      <play vh="H" time="18:30" uni="03" team="USU" checkname="MERRILL,SAM" action="STEAL"></play>
+      <play vh="H" time="18:28" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="GOOD" type="DUNK" paint="Y" fastb="Y" vscore="28" hscore="53"></play>
+      <play vh="H" time="18:28" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="18:26" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="H" time="18:05" uni="14" team="USU" checkname="MOORE,JALEN" action="FOUL"></play>
+      <play vh="V" time="18:05" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="MISS" type="FT"></play>
+      <play vh="V" time="18:05" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="18:05" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="FT" vscore="29" hscore="53"></play>
+      <play vh="H" time="17:46" uni="14" team="USU" checkname="MOORE,JALEN" action="TURNOVER"></play>
+      <play vh="V" time="17:45" uni="22" team="AF" checkname="LOUDER,PERVIS" action="STEAL"></play>
+      <play vh="V" time="17:41" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="17:41" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="BLOCK"></play>
+      <play vh="V" time="17:40" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="17:39" uni="01" team="USU" checkname="MCEWEN,KOBY" action="FOUL"></play>
+      <play vh="V" time="17:16" uni="15" team="AF" checkname="VAN,JACOB" action="MISS" type="3PTR"></play>
+      <play vh="V" time="17:16" uni="05" team="AF" checkname="KOCUR,ZACH" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="17:06" uni="01" team="USU" checkname="MCEWEN,KOBY" action="FOUL"></play>
+      <play vh="V" time="17:06" uni="22" team="AF" checkname="LOUDER,PERVIS" action="GOOD" type="FT" vscore="30" hscore="53"></play>
+      <play vh="V" time="17:06" uni="22" team="AF" checkname="LOUDER,PERVIS" action="GOOD" type="FT" vscore="31" hscore="53"></play>
+      <play vh="H" time="17:06" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="IN"></play>
+      <play vh="H" time="17:06" uni="01" team="USU" checkname="MCEWEN,KOBY" action="SUB" type="OUT"></play>
+      <play vh="H" time="16:49" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="LAYUP" paint="Y" vscore="31" hscore="55"></play>
+      <play vh="V" time="16:31" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="JUMPER" vscore="33" hscore="55"></play>
+      <play vh="H" time="16:07" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="3PTR" vscore="33" hscore="58"></play>
+      <play vh="V" time="15:52" uni="33" team="AF" checkname="TOOHEY,FRANK" action="TURNOVER"></play>
+      <play vh="V" time="15:52" uni="33" team="AF" checkname="TOOHEY,FRANK" action="FOUL"></play>
+      <play vh="H" time="15:52" uni="TM" team="USU" checkname="TEAM" action="TIMEOUT" type="media"></play>
+      <play vh="H" time="15:52" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="IN"></play>
+      <play vh="H" time="15:52" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="OUT"></play>
+      <play vh="H" time="15:26" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="GOOD" type="LAYUP" paint="Y" vscore="33" hscore="60"></play>
+      <play vh="H" time="15:26" uni="00" team="USU" checkname="RECTOR,SHANE" action="ASSIST"></play>
+      <play vh="V" time="14:57" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="3PTR" vscore="36" hscore="60"></play>
+      <play vh="V" time="14:57" uni="15" team="AF" checkname="VAN,JACOB" action="ASSIST"></play>
+      <play vh="V" time="14:33" uni="22" team="AF" checkname="LOUDER,PERVIS" action="FOUL"></play>
+      <play vh="H" time="14:25" uni="10" team="USU" checkname="TAYLOR,QUINN" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="14:25" uni="22" team="AF" checkname="LOUDER,PERVIS" action="BLOCK"></play>
+      <play vh="H" time="14:25" uni="TM" team="USU" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="14:17" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="TURNOVER"></play>
+      <play vh="H" time="14:17" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="FOUL"></play>
+      <play vh="H" time="13:55" uni="10" team="USU" checkname="TAYLOR,QUINN" action="FOUL"></play>
+      <play vh="V" time="13:50" uni="22" team="AF" checkname="LOUDER,PERVIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="13:50" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="BLOCK"></play>
+      <play vh="H" time="13:49" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="13:45" uni="00" team="USU" checkname="RECTOR,SHANE" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="36" hscore="62"></play>
+      <play vh="H" time="13:45" uni="14" team="USU" checkname="MOORE,JALEN" action="ASSIST"></play>
+      <play vh="V" time="13:30" uni="15" team="AF" checkname="VAN,JACOB" action="TURNOVER"></play>
+      <play vh="H" time="13:30" uni="00" team="USU" checkname="RECTOR,SHANE" action="STEAL"></play>
+      <play vh="V" time="13:30" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="SUB" type="IN"></play>
+      <play vh="V" time="13:30" uni="20" team="AF" checkname="LYONS,TREVOR" action="SUB" type="IN"></play>
+      <play vh="V" time="13:30" uni="22" team="AF" checkname="LOUDER,PERVIS" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:30" uni="33" team="AF" checkname="TOOHEY,FRANK" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:30" uni="05" team="USU" checkname="PEARRE,JULION" action="SUB" type="IN"></play>
+      <play vh="H" time="13:30" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:16" uni="14" team="USU" checkname="MOORE,JALEN" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="13:16" uni="20" team="AF" checkname="LYONS,TREVOR" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="13:13" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="FOUL"></play>
+      <play vh="V" time="13:04" uni="20" team="AF" checkname="LYONS,TREVOR" action="GOOD" type="LAYUP" paint="Y" vscore="38" hscore="62"></play>
+      <play vh="H" time="12:43" uni="05" team="USU" checkname="PEARRE,JULION" action="GOOD" type="3PTR" vscore="38" hscore="65"></play>
+      <play vh="H" time="12:43" uni="00" team="USU" checkname="RECTOR,SHANE" action="ASSIST"></play>
+      <play vh="V" time="12:24" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="12:24" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="12:16" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="JUMPER" paint="Y" vscore="38" hscore="67"></play>
+      <play vh="H" time="12:16" uni="00" team="USU" checkname="RECTOR,SHANE" action="ASSIST"></play>
+      <play vh="H" time="11:49" uni="00" team="USU" checkname="RECTOR,SHANE" action="FOUL"></play>
+      <play vh="V" time="11:49" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="11:49" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="MISS" type="FT"></play>
+      <play vh="V" time="11:49" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="11:49" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="FT" vscore="39" hscore="67"></play>
+      <play vh="V" time="11:49" uni="02" team="AF" checkname="SIPLES,CJ" action="SUB" type="IN"></play>
+      <play vh="V" time="11:49" uni="15" team="AF" checkname="VAN,JACOB" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:49" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="IN"></play>
+      <play vh="H" time="11:49" uni="13" team="USU" checkname="BARNABA,NGOR" action="SUB" type="IN"></play>
+      <play vh="H" time="11:49" uni="01" team="USU" checkname="MCEWEN,KOBY" action="SUB" type="IN"></play>
+      <play vh="H" time="11:49" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:49" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:49" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:27" uni="13" team="USU" checkname="BARNABA,NGOR" action="TURNOVER"></play>
+      <play vh="V" time="11:27" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="STEAL"></play>
+      <play vh="V" time="11:16" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="TURNOVER"></play>
+      <play vh="H" time="11:15" uni="10" team="USU" checkname="TAYLOR,QUINN" action="STEAL"></play>
+      <play vh="V" time="11:13" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="FOUL"></play>
+      <play vh="H" time="11:07" uni="25" team="USU" checkname="GARNER,CONNOR" action="GOOD" type="3PTR" vscore="39" hscore="70"></play>
+      <play vh="H" time="11:07" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="10:51" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="70"></play>
+      <play vh="H" time="10:51" uni="13" team="USU" checkname="BARNABA,NGOR" action="FOUL"></play>
+      <play vh="V" time="10:51" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="GOOD" type="FT" vscore="42" hscore="70"></play>
+      <play vh="H" time="10:51" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="IN"></play>
+      <play vh="H" time="10:51" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="IN"></play>
+      <play vh="H" time="10:51" uni="13" team="USU" checkname="BARNABA,NGOR" action="SUB" type="OUT"></play>
+      <play vh="H" time="10:51" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="OUT"></play>
+      <play vh="V" time="10:35" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="FOUL"></play>
+      <play vh="H" time="10:28" uni="15" team="USU" checkname="JANICEK,NORBERT" action="GOOD" type="JUMPER" paint="Y" vscore="42" hscore="72"></play>
+      <play vh="H" time="10:28" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="10:28" uni="05" team="AF" checkname="KOCUR,ZACH" action="FOUL"></play>
+      <play vh="H" time="10:28" uni="15" team="USU" checkname="JANICEK,NORBERT" action="MISS" type="FT"></play>
+      <play vh="V" time="10:28" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="10:03" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="LAYUP" paint="Y" vscore="44" hscore="72"></play>
+      <play vh="H" time="10:03" uni="15" team="USU" checkname="JANICEK,NORBERT" action="FOUL"></play>
+      <play vh="V" time="10:03" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="FT" vscore="45" hscore="72"></play>
+      <play vh="V" time="10:03" uni="00" team="AF" checkname="MORRIS,CALEB" action="SUB" type="IN"></play>
+      <play vh="V" time="10:03" uni="05" team="AF" checkname="KOCUR,ZACH" action="SUB" type="OUT"></play>
+      <play vh="H" time="09:42" uni="05" team="USU" checkname="PEARRE,JULION" action="MISS" type="3PTR"></play>
+      <play vh="V" time="09:42" uni="02" team="AF" checkname="SIPLES,CJ" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="09:35" uni="02" team="AF" checkname="SIPLES,CJ" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="09:35" uni="14" team="USU" checkname="MOORE,JALEN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="09:24" uni="25" team="USU" checkname="GARNER,CONNOR" action="GOOD" type="3PTR" vscore="45" hscore="75"></play>
+      <play vh="H" time="09:24" uni="01" team="USU" checkname="MCEWEN,KOBY" action="ASSIST"></play>
+      <play vh="V" time="09:00" uni="20" team="AF" checkname="LYONS,TREVOR" action="GOOD" type="JUMPER" vscore="47" hscore="75"></play>
+      <play vh="H" time="08:33" uni="14" team="USU" checkname="MOORE,JALEN" action="MISS" type="3PTR"></play>
+      <play vh="V" time="08:33" uni="20" team="AF" checkname="LYONS,TREVOR" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="08:20" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="08:20" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="08:07" uni="15" team="USU" checkname="JANICEK,NORBERT" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="08:07" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="08:05" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="IN"></play>
+      <play vh="H" time="08:05" uni="05" team="USU" checkname="PEARRE,JULION" action="SUB" type="OUT"></play>
+      <play vh="V" time="07:55" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="MISS" type="3PTR"></play>
+      <play vh="H" time="07:55" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="07:42" uni="15" team="USU" checkname="JANICEK,NORBERT" action="GOOD" type="JUMPER" vscore="47" hscore="77"></play>
+      <play vh="H" time="07:42" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="07:24" uni="00" team="AF" checkname="MORRIS,CALEB" action="MISS" type="3PTR"></play>
+      <play vh="V" time="07:24" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="07:15" uni="02" team="AF" checkname="SIPLES,CJ" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="07:15" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="07:08" uni="25" team="USU" checkname="GARNER,CONNOR" action="MISS" type="3PTR"></play>
+      <play vh="V" time="07:08" uni="20" team="AF" checkname="LYONS,TREVOR" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="07:00" uni="25" team="USU" checkname="GARNER,CONNOR" action="FOUL"></play>
+      <play vh="V" time="07:00" uni="TM" team="AF" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="07:00" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="FT"></play>
+      <play vh="V" time="07:00" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="07:00" uni="20" team="AF" checkname="LYONS,TREVOR" action="MISS" type="FT"></play>
+      <play vh="H" time="07:00" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="07:00" uni="43" team="AF" checkname="SWAN,RYAN" action="SUB" type="IN"></play>
+      <play vh="V" time="07:00" uni="35" team="AF" checkname="GRAHAM,HAYDEN" action="SUB" type="OUT"></play>
+      <play vh="H" time="07:00" uni="24" team="USU" checkname="BRITO,DIOGO" action="SUB" type="IN"></play>
+      <play vh="H" time="07:00" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="IN"></play>
+      <play vh="H" time="07:00" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="OUT"></play>
+      <play vh="H" time="07:00" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="OUT"></play>
+      <play vh="V" time="06:50" uni="43" team="AF" checkname="SWAN,RYAN" action="FOUL"></play>
+      <play vh="H" time="06:50" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="FT" vscore="47" hscore="78"></play>
+      <play vh="H" time="06:50" uni="03" team="USU" checkname="MERRILL,SAM" action="GOOD" type="FT" vscore="47" hscore="79"></play>
+      <play vh="V" time="06:35" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="MISS" type="3PTR"></play>
+      <play vh="H" time="06:35" uni="01" team="USU" checkname="MCEWEN,KOBY" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="06:10" uni="03" team="USU" checkname="MERRILL,SAM" action="MISS" type="3PTR"></play>
+      <play vh="V" time="06:10" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="05:56" uni="43" team="AF" checkname="SWAN,RYAN" action="GOOD" type="JUMPER" paint="Y" vscore="49" hscore="79"></play>
+      <play vh="H" time="05:41" uni="03" team="USU" checkname="MERRILL,SAM" action="MISS" type="3PTR"></play>
+      <play vh="V" time="05:41" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="05:32" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="51" hscore="79"></play>
+      <play vh="V" time="05:08" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="FOUL"></play>
+      <play vh="H" time="05:08" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="GOOD" type="FT" vscore="51" hscore="80"></play>
+      <play vh="H" time="05:08" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="GOOD" type="FT" vscore="51" hscore="81"></play>
+      <play vh="V" time="05:08" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="SUB" type="IN"></play>
+      <play vh="V" time="05:08" uni="03" team="AF" checkname="TOMES,SID" action="SUB" type="IN"></play>
+      <play vh="V" time="05:08" uni="13" team="AF" checkname="BROWN,LASEAN" action="SUB" type="IN"></play>
+      <play vh="V" time="05:08" uni="12" team="AF" checkname="SCOTTIE,LAVELLE" action="SUB" type="OUT"></play>
+      <play vh="V" time="05:08" uni="02" team="AF" checkname="SIPLES,CJ" action="SUB" type="OUT"></play>
+      <play vh="V" time="05:08" uni="20" team="AF" checkname="LYONS,TREVOR" action="SUB" type="OUT"></play>
+      <play vh="H" time="05:08" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="IN"></play>
+      <play vh="H" time="05:08" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="IN"></play>
+      <play vh="H" time="05:08" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="IN"></play>
+      <play vh="H" time="05:08" uni="24" team="USU" checkname="BRITO,DIOGO" action="SUB" type="OUT"></play>
+      <play vh="H" time="05:08" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="OUT"></play>
+      <play vh="H" time="05:08" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:53" uni="00" team="AF" checkname="MORRIS,CALEB" action="MISS" type="3PTR"></play>
+      <play vh="V" time="04:53" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="04:49" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="04:49" uni="15" team="USU" checkname="JANICEK,NORBERT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="04:29" uni="15" team="USU" checkname="JANICEK,NORBERT" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="04:29" uni="03" team="AF" checkname="TOMES,SID" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="04:14" uni="03" team="AF" checkname="TOMES,SID" action="GOOD" type="3PTR" vscore="54" hscore="81"></play>
+      <play vh="V" time="04:14" uni="00" team="AF" checkname="MORRIS,CALEB" action="ASSIST"></play>
+      <play vh="H" time="03:51" uni="01" team="USU" checkname="MCEWEN,KOBY" action="MISS" type="3PTR"></play>
+      <play vh="V" time="03:51" uni="13" team="AF" checkname="BROWN,LASEAN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="03:41" uni="13" team="AF" checkname="BROWN,LASEAN" action="TURNOVER"></play>
+      <play vh="H" time="03:41" uni="10" team="USU" checkname="TAYLOR,QUINN" action="SUB" type="IN"></play>
+      <play vh="H" time="03:41" uni="05" team="USU" checkname="PEARRE,JULION" action="SUB" type="IN"></play>
+      <play vh="H" time="03:41" uni="15" team="USU" checkname="JANICEK,NORBERT" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:41" uni="01" team="USU" checkname="MCEWEN,KOBY" action="SUB" type="OUT"></play>
+      <play vh="V" time="03:24" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="FOUL"></play>
+      <play vh="H" time="03:24" uni="14" team="USU" checkname="MOORE,JALEN" action="MISS" type="FT"></play>
+      <play vh="H" time="03:24" uni="TM" team="USU" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="03:24" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="FT" vscore="54" hscore="82"></play>
+      <play vh="V" time="03:14" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="03:14" uni="25" team="USU" checkname="GARNER,CONNOR" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="02:56" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="3PTR" vscore="54" hscore="85"></play>
+      <play vh="H" time="02:56" uni="05" team="USU" checkname="PEARRE,JULION" action="ASSIST"></play>
+      <play vh="V" time="02:33" uni="03" team="AF" checkname="TOMES,SID" action="MISS" type="3PTR"></play>
+      <play vh="H" time="02:33" uni="10" team="USU" checkname="TAYLOR,QUINN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="02:24" uni="25" team="USU" checkname="GARNER,CONNOR" action="TURNOVER"></play>
+      <play vh="V" time="02:22" uni="43" team="AF" checkname="SWAN,RYAN" action="STEAL"></play>
+      <play vh="H" time="02:19" uni="00" team="USU" checkname="RECTOR,SHANE" action="FOUL"></play>
+      <play vh="V" time="02:19" uni="13" team="AF" checkname="BROWN,LASEAN" action="MISS" type="FT"></play>
+      <play vh="V" time="02:19" uni="TM" team="AF" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="02:19" uni="13" team="AF" checkname="BROWN,LASEAN" action="MISS" type="FT"></play>
+      <play vh="H" time="02:19" uni="14" team="USU" checkname="MOORE,JALEN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="02:19" uni="41" team="AF" checkname="CULP,KEEGAN" action="SUB" type="IN"></play>
+      <play vh="V" time="02:19" uni="03" team="AF" checkname="TOMES,SID" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:19" uni="24" team="USU" checkname="BRITO,DIOGO" action="SUB" type="IN"></play>
+      <play vh="H" time="02:19" uni="25" team="USU" checkname="GARNER,CONNOR" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:00" uni="00" team="USU" checkname="RECTOR,SHANE" action="MISS" type="3PTR"></play>
+      <play vh="V" time="02:00" uni="13" team="AF" checkname="BROWN,LASEAN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="01:42" uni="30" team="AF" checkname="DEWANE,JONATHAN" action="MISS" type="3PTR"></play>
+      <play vh="V" time="01:42" uni="43" team="AF" checkname="SWAN,RYAN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="01:38" uni="43" team="AF" checkname="SWAN,RYAN" action="GOOD" type="LAYUP" paint="Y" vscore="56" hscore="85"></play>
+      <play vh="V" time="01:20" uni="41" team="AF" checkname="CULP,KEEGAN" action="FOUL"></play>
+      <play vh="H" time="01:20" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="FT" vscore="56" hscore="86"></play>
+      <play vh="H" time="01:20" uni="14" team="USU" checkname="MOORE,JALEN" action="GOOD" type="FT" vscore="56" hscore="87"></play>
+      <play vh="H" time="01:20" uni="03" team="USU" checkname="MERRILL,SAM" action="SUB" type="IN"></play>
+      <play vh="H" time="01:20" uni="00" team="USU" checkname="RECTOR,SHANE" action="SUB" type="OUT"></play>
+      <play vh="V" time="00:54" uni="00" team="AF" checkname="MORRIS,CALEB" action="MISS" type="3PTR"></play>
+      <play vh="H" time="00:54" uni="14" team="USU" checkname="MOORE,JALEN" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="00:44" uni="11" team="USU" checkname="DARGENTON,ALEXIS" action="SUB" type="IN"></play>
+      <play vh="H" time="00:44" uni="14" team="USU" checkname="MOORE,JALEN" action="SUB" type="OUT"></play>
+      <play vh="H" time="00:33" uni="24" team="USU" checkname="BRITO,DIOGO" action="GOOD" type="LAYUP" paint="Y" vscore="56" hscore="89"></play>
+      <play vh="H" time="00:33" uni="03" team="USU" checkname="MERRILL,SAM" action="ASSIST"></play>
+      <play vh="V" time="00:08" uni="13" team="AF" checkname="BROWN,LASEAN" action="GOOD" type="LAYUP" paint="Y" vscore="58" hscore="89"></play>
+      <play vh="H" time="00:08" uni="24" team="USU" checkname="BRITO,DIOGO" action="FOUL"></play>
+      <play vh="V" time="00:08" uni="13" team="AF" checkname="BROWN,LASEAN" action="MISS" type="FT"></play>
+      <play vh="H" time="00:08" uni="10" team="USU" checkname="TAYLOR,QUINN" action="REBOUND" type="DEF"></play>
+      <clock time="00:00"></clock>
+    </period>
+  </plays>
+</bbgame>

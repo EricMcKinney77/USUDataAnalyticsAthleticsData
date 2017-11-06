@@ -1,0 +1,1016 @@
+<vbgame source="TAS Volleyball" version="1.16.01" generated="10/11/2017">
+  <gametracker gameid="1548581"></gametracker>
+  <venue gameid="2017UV"
+           visid="UVU" visname="Utah Valley"
+           homeid="USU" homename="Utah State"
+           date="9/5/2017" location="Logan, Utah" arena="Kirby Court at Estes"
+           start="7 pm" end="9:07 pm" duration="2:07" attend="718" schednote=""
+           leaguegame="N" neutralgame="N" postseason="N" gameset="1">
+    <officials>
+      <official title="1st Referee" name="Les Calles"></official>
+      <official title="2nd Referee" name="Jerilyn Clawson"></official>
+      <official title="Line Judge" name="Kathryn Mecham"></official>
+      <official title="Line Judge" name="Courtney Griffiths"></official>
+    </officials>
+    <rules></rules>
+  </venue>
+  <team vh="V" id="UVU" name="Utah Valley" code="30024" record="5-4">
+    <linescore line="18,25,26,25" score="3">
+      <linegame game="1" points="18"></linegame>
+      <linegame game="2" points="25"></linegame>
+      <linegame game="3" points="26"></linegame>
+      <linegame game="4" points="25"></linegame>
+    </linescore>
+    <attackbygame>
+      <attackgame game="1" k="7" e="8" ta="27" pct="-.037"></attackgame>
+      <attackgame game="2" k="18" e="2" ta="42" pct=".381"></attackgame>
+      <attackgame game="3" k="14" e="5" ta="35" pct=".257"></attackgame>
+      <attackgame game="4" k="13" e="3" ta="23" pct=".435"></attackgame>
+    </attackbygame>
+    <totals>
+      <attack k="52" e="18" ta="127" pct=".268"></attack>
+      <set a="51"></set>
+      <serve sa="6" se="3"></serve>
+      <defense dig="65" re="6" ta="74"></defense>
+      <block bs="0" ba="16" be="3" tb="8.0"></block>
+      <misc bhe="1" pts="66.0"></misc>
+    </totals>
+    <player uni="2" code="2" name="Starley, Sierra" checkname="STARLEY,SIERRA" class="SR" gp="4" ms="1">
+      <attack k="1" e="0" ta="6" pct=".167"></attack>
+      <set a="47"></set>
+      <serve sa="1" se="0"></serve>
+      <defense dig="8" re="0" ta="0"></defense>
+      <block bs="0" ba="5" be="1" tb="5"></block>
+      <misc bhe="0" pts="4.5"></misc>
+    </player>
+    <player uni="9" code="9" name="Taylor, Brighton" checkname="TAYLOR,BRIGHTON" class="SR" gp="3" ms="1">
+      <attack k="5" e="1" ta="9" pct=".444"></attack>
+      <set a="1"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="0" re="0" ta="0"></defense>
+      <block bs="0" ba="1" be="0" tb="1"></block>
+      <misc bhe="0" pts="5.5"></misc>
+    </player>
+    <player uni="11" code="11" name="Hinton, Izzie" checkname="HINTON,IZZIE" class="SO" gp="4" ms="1">
+      <attack k="8" e="5" ta="23" pct=".130"></attack>
+      <set a="0"></set>
+      <serve sa="1" se="1"></serve>
+      <defense dig="9" re="0" ta="0"></defense>
+      <block bs="0" ba="1" be="1" tb="1"></block>
+      <misc bhe="0" pts="9.5"></misc>
+    </player>
+    <player uni="15" code="15" name="Davies, Alexis" checkname="DAVIES,ALEXIS" class="JR" gp="4" ms="1">
+      <attack k="12" e="3" ta="29" pct=".310"></attack>
+      <set a="1"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="5" re="1" ta="7"></defense>
+      <block bs="0" ba="2" be="0" tb="2"></block>
+      <misc bhe="0" pts="13.0"></misc>
+    </player>
+    <player uni="17" code="17" name="Thompson, Lexi" checkname="THOMPSON,LEXI" class="SR" gp="4" ms="1">
+      <attack k="13" e="5" ta="34" pct=".235"></attack>
+      <set a="0"></set>
+      <serve sa="1" se="1"></serve>
+      <defense dig="10" re="2" ta="26"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="14.0"></misc>
+    </player>
+    <player uni="18" code="18" name="Dennison, Madison" checkname="DENNISON,MADISON" class="SR" gp="4" ms="1">
+      <attack k="13" e="3" ta="23" pct=".435"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="6" re="0" ta="0"></defense>
+      <block bs="0" ba="5" be="0" tb="5"></block>
+      <misc bhe="0" pts="15.5"></misc>
+    </player>
+    <player uni="1" code="1" name="Pollard, Makayla" checkname="POLLARD,MAKAYLA" class="FR" gp="0"></player>
+    <player uni="3" code="-1" name="Tagge, Lindsey" checkname="TAGGE,LINDSEY" class="JR" gp="0"></player>
+    <player uni="4" code="4" name="Ward, Brynnly" checkname="WARD,BRYNNLY" class="FR" gp="2">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="1" re="0" ta="0"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="5" code="5" name="Boudreaux, Megan" checkname="BOUDREAUX,MEGAN" class="SO" gp="2">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="0" re="0" ta="0"></defense>
+      <block bs="0" ba="0" be="1" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="6" code="6" name="Merrill, Seren" checkname="MERRILL,SEREN" class="FR" gp="4">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="1"></set>
+      <serve sa="3" se="0"></serve>
+      <defense dig="17" re="1" ta="15"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="1" pts="3.0"></misc>
+    </player>
+    <player uni="7" code="7" name="Wardle, Madi" checkname="WARDLE,MADI" class="SO" gp="4">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="1"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="7" re="1" ta="16"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="8" code="8" name="Martinovic, Marija" checkname="MARTINOVIC,MARIJA" class="SR" gp="3">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="1"></serve>
+      <defense dig="2" re="1" ta="10"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="10" code="10" name="Nixon, Bailey" checkname="NIXON,BAILEY" class="FR" gp="0"></player>
+    <player uni="12" code="12" name="Niutupuivaha, Jasmin" checkname="NIUTUPUIVAHA,JASMIN" class="SO" gp="2">
+      <attack k="0" e="1" ta="3" pct="-.333"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="0" re="0" ta="0"></defense>
+      <block bs="0" ba="2" be="0" tb="2"></block>
+      <misc bhe="0" pts="1.0"></misc>
+    </player>
+    <player uni="16" code="16" name="Allred, Kristen" checkname="ALLRED,KRISTEN" class="FR" gp="0"></player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" class="" gp="0"></player>
+  </team>
+  <team vh="H" id="USU" name="Utah State" code="731" record="4-3">
+    <linescore line="25,18,24,15" score="1">
+      <linegame game="1" points="25"></linegame>
+      <linegame game="2" points="18"></linegame>
+      <linegame game="3" points="24"></linegame>
+      <linegame game="4" points="15"></linegame>
+    </linescore>
+    <attackbygame>
+      <attackgame game="1" k="16" e="6" ta="34" pct=".294"></attackgame>
+      <attackgame game="2" k="11" e="5" ta="46" pct=".130"></attackgame>
+      <attackgame game="3" k="16" e="7" ta="48" pct=".188"></attackgame>
+      <attackgame game="4" k="11" e="5" ta="27" pct=".222"></attackgame>
+    </attackbygame>
+    <totals>
+      <attack k="54" e="23" ta="155" pct=".200"></attack>
+      <set a="52"></set>
+      <serve sa="6" se="9"></serve>
+      <defense dig="52" re="6" ta="90"></defense>
+      <block bs="1" ba="13" be="0" tb="7.5"></block>
+      <misc bhe="3" pts="67.5"></misc>
+    </totals>
+    <player uni="3" code="3" name="ANDERSON, Lauren" checkname="ANDERSON,LAUREN" class="SR" gp="4" ms="1">
+      <attack k="17" e="6" ta="40" pct=".275"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="11" re="1" ta="24"></defense>
+      <block bs="1" ba="2" be="0" tb="3"></block>
+      <misc bhe="0" pts="19.0"></misc>
+    </player>
+    <player uni="5" code="5" name="FUNK, Jaysa" checkname="FUNK,JAYSA" class="FR" gp="4" ms="1">
+      <attack k="3" e="1" ta="6" pct=".333"></attack>
+      <set a="45"></set>
+      <serve sa="3" se="1"></serve>
+      <defense dig="8" re="0" ta="0"></defense>
+      <block bs="0" ba="2" be="0" tb="2"></block>
+      <misc bhe="3" pts="7.0"></misc>
+    </player>
+    <player uni="10" code="10" name="O'BRIEN, Lauren" checkname="O'BRIEN,LAUREN" class="JR" gp="4" ms="1">
+      <attack k="2" e="3" ta="12" pct="-.083"></attack>
+      <set a="1"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="1" re="0" ta="0"></defense>
+      <block bs="0" ba="2" be="0" tb="2"></block>
+      <misc bhe="0" pts="3.0"></misc>
+    </player>
+    <player uni="11" code="11" name="DeCOURSEY, Kayla" checkname="DECOURSEY,KAYLA" class="SR" gp="4" ms="1">
+      <attack k="12" e="2" ta="33" pct=".303"></attack>
+      <set a="0"></set>
+      <serve sa="1" se="0"></serve>
+      <defense dig="3" re="0" ta="1"></defense>
+      <block bs="0" ba="2" be="0" tb="2"></block>
+      <misc bhe="0" pts="14.0"></misc>
+    </player>
+    <player uni="13" code="13" name="LENZEN, Carly" checkname="LENZEN,CARLY" class="SR" gp="4" ms="1">
+      <attack k="9" e="2" ta="16" pct=".438"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="3"></serve>
+      <defense dig="2" re="0" ta="0"></defense>
+      <block bs="0" ba="4" be="0" tb="4"></block>
+      <misc bhe="0" pts="11.0"></misc>
+    </player>
+    <player uni="26" code="26" name="GALE-HAMMOND, Rachel" checkname="GALE-HAMMOND,RACHEL" class="SR" gp="4" ms="1">
+      <attack k="8" e="7" ta="39" pct=".026"></attack>
+      <set a="3"></set>
+      <serve sa="0" se="4"></serve>
+      <defense dig="3" re="3" ta="21"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="8.0"></misc>
+    </player>
+    <player uni="2" code="2" name="TAYLOR, Tasia" checkname="TAYLOR,TASIA" class="JR" gp="4">
+      <attack k="0" e="0" ta="2" pct=".000"></attack>
+      <set a="3"></set>
+      <serve sa="2" se="1"></serve>
+      <defense dig="20" re="0" ta="23"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="2.0"></misc>
+    </player>
+    <player uni="4" code="4" name="THORNOCK, Ashlee" checkname="THORNOCK,ASHLEE" class="FR" gp="0"></player>
+    <player uni="6" code="6" name="JOHNSON, Kassidy" checkname="JOHNSON,KASSIDY" class="JR" gp="0"></player>
+    <player uni="7" code="7" name="PACKARD, Ally" checkname="PACKARD,ALLY" class="JR" gp="0"></player>
+    <player uni="8" code="8" name="OLSON, Madi" checkname="OLSON,MADI" class="FR" gp="4">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="3" re="1" ta="16"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="9" code="9" name="DOWNING, Bailey" checkname="DOWNING,BAILEY" class="FR" gp="1">
+      <attack k="0" e="0" ta="0" pct=".000"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="0" re="0" ta="0"></defense>
+      <block bs="0" ba="0" be="0" tb="0"></block>
+      <misc bhe="0" pts="0.0"></misc>
+    </player>
+    <player uni="14" code="14" name="WESENBERG, Ashley" checkname="WESENBERG,ASHLEY" class="SO" gp="0"></player>
+    <player uni="39" code="39" name="SHUMWAY, Gabbi" checkname="SHUMWAY,GABBI" class="FR" gp="1">
+      <attack k="3" e="2" ta="7" pct=".143"></attack>
+      <set a="0"></set>
+      <serve sa="0" se="0"></serve>
+      <defense dig="1" re="1" ta="5"></defense>
+      <block bs="0" ba="1" be="0" tb="1"></block>
+      <misc bhe="0" pts="3.5"></misc>
+    </player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" class="" gp="0"></player>
+  </team>
+  <plays format="summary">
+    <game number="1">
+      <play number="1"
+            text="UVU starters: Starley, Sierra; Taylor, Brighton; Hinton, Izzie; Davies, Alexis; Thompson, Lexi; Dennison, Madison; libero Merrill, Seren."
+            tokens="RALLY:Y STARTERS:V,2,9,11,15,17,18,6"></play>
+      <play number="2"
+            text="USU starters: ANDERSON, Lauren; FUNK, Jaysa; O'BRIEN, Lauren; DeCOURSEY, Kayla; LENZEN, Carly; GALE-HAMMOND, Rachel; libero TAYLOR, Tasia."
+            tokens="STARTERS:H,3,5,10,11,13,26,2"></play>
+      <play number="3" serveteam="UVU" point="USU" vscore="0" hscore="1"
+            text="[Merrill, Seren] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:2 S:5 S:5 K:13"></play>
+      <play number="4" serveteam="USU" point="UVU" vscore="1" hscore="1"
+            text="[DeCOURSEY, Kayla] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:17 S:2 S:2 K:18"></play>
+      <play number="5"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="6" serveteam="UVU" point="USU" vscore="1" hscore="2"
+            text="[Hinton, Izzie] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:3 S:5 A:13 D:11 S:17 OVER: S:5 S:5 K:13"></play>
+      <play number="7" serveteam="USU" point="UVU" vscore="2" hscore="2"
+            text="[GALE-HAMMOND, Rachel] Service error."
+            tokens="TEAM:H SERVE:26,E"></play>
+      <play number="8"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="9" serveteam="UVU" point="USU" vscore="2" hscore="3"
+            text="[Wardle, Madi] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:7 D:8 S:5 S:5 K:3"></play>
+      <play number="10" serveteam="USU" point="USU" vscore="2" hscore="4"
+            text="[LENZEN, Carly] Attack error by Thompson, Lexi (block by ANDERSON, Lauren; O'BRIEN, Lauren; FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:13 D:17 S:2 A:17 D:13 S:5 A:3 D:17 S:2 A:17 B:3,10,5"></play>
+      <play number="11" serveteam="USU" point="USU" vscore="2" hscore="5"
+            text="[LENZEN, Carly] Attack error by Dennison, Madison (block by O'BRIEN, Lauren; ANDERSON, Lauren)."
+            tokens="TEAM:H SERVE:13 D:17 S:2 A:18 B:10,3"></play>
+      <play number="12" serveteam="USU" point="USU" vscore="2" hscore="6"
+            text="[LENZEN, Carly] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:13 D:17 OVER: S:5 S:5 K:3"></play>
+      <play number="13" serveteam="USU" point="USU" vscore="2" hscore="7"
+            text="[LENZEN, Carly] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:13 D:6 A:2 D:8 S:5 A:3 CONT: S:5 S:5 K:3"></play>
+      <play number="14" serveteam="USU" point="UVU" vscore="3" hscore="7"
+            text="[LENZEN, Carly] Ball handling error by FUNK, Jaysa."
+            tokens="TEAM:H SERVE:13 D:6 S:2 A:17 D:8 S:5,H"></play>
+      <play number="15" serveteam="UVU" point="UVU" vscore="4" hscore="7"
+            text="[Dennison, Madison] Attack error by ANDERSON, Lauren."
+            tokens="TEAM:V SERVE:18 D:8 S:5 A:3,E"></play>
+      <play number="16" serveteam="UVU" point="USU" vscore="4" hscore="8"
+            text="[Dennison, Madison] Kill by FUNK, Jaysa (from GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:18 D:26 S:26 K:5"></play>
+      <play number="17"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="18" serveteam="USU" point="USU" vscore="4" hscore="9"
+            text="[FUNK, Jaysa] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:5 D:7 S:2 A:9 D:2 S:5 S:5 K:3"></play>
+      <play number="19" serveteam="USU" point="UVU" vscore="5" hscore="9"
+            text="[FUNK, Jaysa] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:6 S:2 A:17 D:5 S:11 OVER: S:2 A:17 D:26 S:11 A:26 D:11 A:2 D:2 S:5 A:10 CONT: S:5 A:11 D:7 S:2 S:2 K:17"></play>
+      <play number="20" serveteam="UVU" point="USU" vscore="5" hscore="10"
+            text="[Starley, Sierra] Kill by DeCOURSEY, Kayla (from TAYLOR, Tasia)."
+            tokens="TEAM:V SERVE:2 D:2 OVER: S:2 A:11 D:5 S:2 S:2 K:11"></play>
+      <play number="21" serveteam="USU" point="UVU" vscore="6" hscore="10"
+            text="[ANDERSON, Lauren] Kill by Taylor, Brighton (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:6 S:2 A:11 D:2 S:5 A:11 D:7 S:2 A:11 D:10 S:5 OVER: S:2 S:2 K:9"></play>
+      <play number="22"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="23" serveteam="UVU" point="UVU" vscore="7" hscore="10"
+            text="[Thompson, Lexi] Attack error by GALE-HAMMOND, Rachel."
+            tokens="TEAM:V SERVE:17 D:2 S:5 A:26,E"></play>
+      <play number="24" serveteam="UVU" point="USU" vscore="7" hscore="11"
+            text="[Thompson, Lexi] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:17 D:26 S:5 A:26 CONT: S:5 S:5 K:26"></play>
+      <play number="25" serveteam="USU" point="UVU" vscore="8" hscore="11"
+            text="[TAYLOR, Tasia] Kill by Taylor, Brighton (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:6 S:2 S:2 K:9"></play>
+      <play number="26" serveteam="UVU" point="UVU" vscore="9" hscore="11"
+            text="[Merrill, Seren] Service ace (GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:6,A RE:26"></play>
+      <play number="27" serveteam="UVU" point="UVU" vscore="10" hscore="11"
+            text="[Merrill, Seren] Attack error by DeCOURSEY, Kayla."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:11,E"></play>
+      <play number="28" serveteam="UVU" point="USU" vscore="10" hscore="12"
+            text="[Merrill, Seren] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:26 S:5 S:5 K:11"></play>
+      <play number="29" serveteam="USU" point="USU" vscore="10" hscore="13"
+            text="[DeCOURSEY, Kayla] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:11 D:17 S:6 OVER: S:5 S:5 K:13"></play>
+      <play number="30" serveteam="USU" point="UVU" vscore="11" hscore="13"
+            text="[DeCOURSEY, Kayla] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:17 S:2 S:2 K:18"></play>
+      <play number="31"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="32" serveteam="UVU" point="USU" vscore="11" hscore="14"
+            text="[Hinton, Izzie] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:2 S:5 S:5 K:13"></play>
+      <play number="33" serveteam="USU" point="USU" vscore="11" hscore="15"
+            text="[GALE-HAMMOND, Rachel] Attack error by Davies, Alexis (block by FUNK, Jaysa; LENZEN, Carly)."
+            tokens="TEAM:H SERVE:26 D:6 S:2 A:15 B:5,13"></play>
+      <play number="34" serveteam="USU" point="USU" vscore="11" hscore="16"
+            text="[GALE-HAMMOND, Rachel] Attack error by Davies, Alexis."
+            tokens="TEAM:H SERVE:26 D:17 S:2 A:15,E"></play>
+      <play number="35" serveteam="USU" point="UVU" vscore="12" hscore="16"
+            text="[GALE-HAMMOND, Rachel] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:17 S:2 S:2 K:15"></play>
+      <play number="36"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="37" serveteam="UVU" point="USU" vscore="12" hscore="17"
+            text="[Wardle, Madi] Attack error by Dennison, Madison."
+            tokens="TEAM:V SERVE:7 D:26 S:5 A:3 D:6 S:2 A:18,E"></play>
+      <play number="38" serveteam="USU" point="UVU" vscore="13" hscore="17"
+            text="[LENZEN, Carly] Service error."
+            tokens="TEAM:H SERVE:13,E"></play>
+      <play number="39" serveteam="UVU" point="USU" vscore="13" hscore="18"
+            text="[Dennison, Madison] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:2 S:5 S:5 K:3"></play>
+      <play number="40"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="41" serveteam="USU" point="USU" vscore="13" hscore="19"
+            text="[FUNK, Jaysa] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:5 D:7 OVER: S:5 S:5 K:11"></play>
+      <play number="42" serveteam="USU"
+            text="Timeout Utah Valley."
+            tokens="TIMEOUT:V"></play>
+      <play number="43" serveteam="USU" point="USU" vscore="13" hscore="20"
+            text="[FUNK, Jaysa] Kill by O'BRIEN, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:5 D:17 S:6 OVER: S:5 A:10 D:11 OVER: S:5 S:5 K:10"></play>
+      <play number="44" serveteam="USU" point="UVU" vscore="14" hscore="20"
+            text="[FUNK, Jaysa] Service error."
+            tokens="TEAM:H SERVE:5,E"></play>
+      <play number="45" serveteam="UVU" point="USU" vscore="14" hscore="21"
+            text="[Starley, Sierra] Attack error by Thompson, Lexi (block by ANDERSON, Lauren)."
+            tokens="TEAM:V SERVE:2 D:26 S:2 A:11 D:6 S:2 A:17 B:3"></play>
+      <play number="46" serveteam="USU" point="USU" vscore="14" hscore="22"
+            text="[ANDERSON, Lauren] Attack error by Hinton, Izzie."
+            tokens="TEAM:H SERVE:3 D:7 S:2 A:11,E"></play>
+      <play number="47" serveteam="USU" point="USU" vscore="14" hscore="23"
+            text="[ANDERSON, Lauren] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:3 D:7 S:2 A:9 CONT: OVER: S:5 A:26 D:6 S:2 A:11 D:3 S:5 S:5 K:11"></play>
+      <play number="48" serveteam="USU" point="UVU" vscore="15" hscore="23"
+            text="[ANDERSON, Lauren] Kill by Taylor, Brighton (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:6 S:2 S:2 K:9"></play>
+      <play number="49"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="50" serveteam="UVU" point="UVU" vscore="16" hscore="23"
+            text="[Thompson, Lexi] Attack error by GALE-HAMMOND, Rachel (block by Taylor, Brighton; Hinton, Izzie)."
+            tokens="TEAM:V SERVE:17 D:26 S:5 A:26 B:9,11"></play>
+      <play number="51" serveteam="UVU" point="UVU" vscore="17" hscore="23"
+            text="[Thompson, Lexi] Attack error by FUNK, Jaysa."
+            tokens="TEAM:V SERVE:17 D:2 A:5,E"></play>
+      <play number="52" serveteam="UVU" point="UVU" vscore="18" hscore="23"
+            text="[Thompson, Lexi] Attack error by O'BRIEN, Lauren."
+            tokens="TEAM:V SERVE:17 D:2 S:5 A:10,E"></play>
+      <play number="53" serveteam="UVU" point="USU" vscore="18" hscore="24"
+            text="[Thompson, Lexi] Attack error by Hinton, Izzie."
+            tokens="TEAM:V SERVE:17 D:2 S:5 OVER: S:2 A:11,E"></play>
+      <play number="54" serveteam="USU" point="USU" vscore="18" hscore="25"
+            text="[TAYLOR, Tasia] Service ace (Davies, Alexis)."
+            tokens="TEAM:H SERVE:2,A RE:15"></play>
+    </game>
+    <game number="2">
+      <play number="55"
+            text="USU starters: DeCOURSEY, Kayla; LENZEN, Carly; O'BRIEN, Lauren; GALE-HAMMOND, Rachel; FUNK, Jaysa; ANDERSON, Lauren; libero TAYLOR, Tasia."
+            tokens="GAME:2 STARTERS:H,11,13,10,26,5,3,2"></play>
+      <play number="56"
+            text="UVU starters: Dennison, Madison; Starley, Sierra; Hinton, Izzie; Davies, Alexis; Taylor, Brighton; Thompson, Lexi; libero Merrill, Seren."
+            tokens="STARTERS:V,18,2,11,15,9,17,6"></play>
+      <play number="57" serveteam="USU" point="USU" vscore="0" hscore="1"
+            text="[TAYLOR, Tasia] Service ace (Merrill, Seren)."
+            tokens="TEAM:H SERVE:2,A RE:6"></play>
+      <play number="58" serveteam="USU" point="UVU" vscore="1" hscore="1"
+            text="[TAYLOR, Tasia] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:6 S:2 S:2 K:15"></play>
+      <play number="59" serveteam="UVU" point="UVU" vscore="2" hscore="1"
+            text="[Merrill, Seren] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:13 D:15 S:2 S:2 K:11"></play>
+      <play number="60" serveteam="UVU" point="UVU" vscore="3" hscore="1"
+            text="[Merrill, Seren] Kill by Hinton, Izzie."
+            tokens="TEAM:V SERVE:6 D:3 OVER: K:11"></play>
+      <play number="61" serveteam="UVU" point="USU" vscore="3" hscore="2"
+            text="[Merrill, Seren] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa), block error by Hinton, Izzie."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:11 D:6 S:2 A:11 D:3 S:5 A:11 D:17 S:2 A:15 D:2 S:5 A:26 D:17 S:15 A:18 D:5 S:2 A:26 D:17 S:2 A:15 D:3 S:5 S:5 A:26 BE:11"></play>
+      <play number="62" serveteam="USU" point="UVU" vscore="4" hscore="2"
+            text="[DeCOURSEY, Kayla] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:17 S:2 A:18 D:2 S:5 A:13 D:2 K:18"></play>
+      <play number="63"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="64" serveteam="UVU" point="UVU" vscore="5" hscore="2"
+            text="[Hinton, Izzie] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:11 D:8 S:5 A:26 D:17 S:2 A:15 D:2 S:5 A:26 D:6 S:2 S:2 K:18"></play>
+      <play number="65" serveteam="UVU" point="USU" vscore="5" hscore="3"
+            text="[Hinton, Izzie] Service error."
+            tokens="TEAM:V SERVE:11,E"></play>
+      <play number="66"
+            text="UVU subs: Ward, Brynnly; Hinton, Izzie."
+            tokens="SUB:V,4,11,,,,"></play>
+      <play number="67" serveteam="USU" point="UVU" vscore="6" hscore="3"
+            text="[GALE-HAMMOND, Rachel] Attack error by ANDERSON, Lauren (block by Dennison, Madison; Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:6 S:2 A:18 D:2 S:5 A:3 B:18,2"></play>
+      <play number="68"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="69" serveteam="UVU" point="USU" vscore="6" hscore="4"
+            text="[Wardle, Madi] Kill by ANDERSON, Lauren (from FUNK, Jaysa), block error by Starley, Sierra."
+            tokens="TEAM:V SERVE:7 D:8 S:5 S:5 A:3 BE:2"></play>
+      <play number="70" serveteam="USU" point="UVU" vscore="7" hscore="4"
+            text="[LENZEN, Carly] Service error."
+            tokens="TEAM:H SERVE:13,E"></play>
+      <play number="71" serveteam="UVU" point="UVU" vscore="8" hscore="4"
+            text="[Dennison, Madison] Attack error by ANDERSON, Lauren."
+            tokens="TEAM:V SERVE:18 D:8 S:5 A:3,E"></play>
+      <play number="72" serveteam="UVU" point="USU" vscore="8" hscore="5"
+            text="[Dennison, Madison] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:8 A:5 D:18 S:2 A:17 D:3 S:5 S:5 K:3"></play>
+      <play number="73"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="74" serveteam="USU" point="UVU" vscore="9" hscore="5"
+            text="[FUNK, Jaysa] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:17 S:2 S:2 K:17"></play>
+      <play number="75"
+            text="UVU subs: Hinton, Izzie; Ward, Brynnly."
+            tokens="SUB:V,11,4,,,,"></play>
+      <play number="76" serveteam="UVU" point="USU" vscore="9" hscore="6"
+            text="[Starley, Sierra] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:2 D:3 S:5 S:5 K:3"></play>
+      <play number="77" serveteam="USU" point="UVU" vscore="10" hscore="6"
+            text="[ANDERSON, Lauren] Kill by Hinton, Izzie (from Taylor, Brighton)."
+            tokens="TEAM:H SERVE:3 D:7 S:2 A:17 D:5 S:2 A:26 D:6 S:2 A:11 D:3 S:5 A:26 D:6 S:7 A:11 D:26 S:5 A:26 CONT: S:2 A:26 D:11 S:9 S:9 K:11"></play>
+      <play number="78"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="79" serveteam="UVU" point="UVU" vscore="11" hscore="6"
+            text="[Thompson, Lexi] Attack error by GALE-HAMMOND, Rachel."
+            tokens="TEAM:V SERVE:17 D:2 OVER: S:2 A:15 D:2 S:5 A:11 D:15 OVER: S:5 A:26 D:17 S:2 A:15 CONT: OVER: S:5 A:26 D:15 S:2 A:11 D:11 S:5 A:3 D:2 S:17 OVER: S:5 A:10 D:2 S:6 A:15 D:3 S:5 A:26,E"></play>
+      <play number="80" serveteam="UVU"
+            text="Yellow card on USU #11"
+            tokens="CMT:Yellow card on USU #11"></play>
+      <play number="81" serveteam="UVU" point="USU" vscore="11" hscore="7"
+            text="[Thompson, Lexi] Kill by FUNK, Jaysa (from TAYLOR, Tasia)."
+            tokens="TEAM:V SERVE:17 D:2 S:2 K:5"></play>
+      <play number="82" serveteam="USU" point="UVU" vscore="12" hscore="7"
+            text="[TAYLOR, Tasia] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:15 S:2 A:15 D:5 OVER: S:2 S:2 K:11"></play>
+      <play number="83" serveteam="UVU" point="UVU" vscore="13" hscore="7"
+            text="[Merrill, Seren] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:26 CONT: OVER: S:2 S:2 K:18"></play>
+      <play number="84" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="85" serveteam="UVU" point="UVU" vscore="14" hscore="7"
+            text="[Merrill, Seren] Attack error by DeCOURSEY, Kayla (block by Davies, Alexis; Dennison, Madison)."
+            tokens="TEAM:V SERVE:6 D:26 S:5 A:11 B:15,18"></play>
+      <play number="86" serveteam="UVU" point="USU" vscore="14" hscore="8"
+            text="[Merrill, Seren] Kill by DeCOURSEY, Kayla (from GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:13 CONT: S:26 K:11"></play>
+      <play number="87" serveteam="USU" point="UVU" vscore="15" hscore="8"
+            text="[DeCOURSEY, Kayla] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:17 S:2 A:15 D:2 A:5 CONT: S:5 A:26 CONT: S:5 OVER: S:2 S:2 K:15"></play>
+      <play number="88"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="89" serveteam="UVU" point="USU" vscore="15" hscore="9"
+            text="[Hinton, Izzie] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:3 S:5 A:26 D:17 S:2 A:17 D:2 S:5 S:5 K:26"></play>
+      <play number="90"
+            text="UVU subs: Ward, Brynnly; Hinton, Izzie."
+            tokens="SUB:V,4,11,,,,"></play>
+      <play number="91" serveteam="USU" point="UVU" vscore="16" hscore="9"
+            text="[GALE-HAMMOND, Rachel] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:17 S:2 S:2 K:18"></play>
+      <play number="92"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="93" serveteam="UVU" point="UVU" vscore="17" hscore="9"
+            text="[Wardle, Madi] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:7 D:26 S:5 A:3 D:7 S:2 S:2 K:18"></play>
+      <play number="94" serveteam="UVU" point="USU" vscore="17" hscore="10"
+            text="[Wardle, Madi] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:7 D:8 S:5 S:5 K:13"></play>
+      <play number="95" serveteam="USU" point="UVU" vscore="18" hscore="10"
+            text="[LENZEN, Carly] Service error."
+            tokens="TEAM:H SERVE:13,E"></play>
+      <play number="96" serveteam="UVU" point="USU" vscore="18" hscore="11"
+            text="[Dennison, Madison] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:8 S:5 S:5 K:3"></play>
+      <play number="97"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="98" serveteam="USU" point="USU" vscore="18" hscore="12"
+            text="[FUNK, Jaysa] Service ace (Thompson, Lexi)."
+            tokens="TEAM:H SERVE:5,A RE:17"></play>
+      <play number="99" serveteam="USU" point="USU" vscore="18" hscore="13"
+            text="[FUNK, Jaysa] Service ace (Thompson, Lexi)."
+            tokens="TEAM:H SERVE:5,A RE:17"></play>
+      <play number="100" serveteam="USU" point="UVU" vscore="19" hscore="13"
+            text="[FUNK, Jaysa] Kill by Starley, Sierra (from Merrill, Seren)."
+            tokens="TEAM:H SERVE:5 D:6 S:2 A:17 D:2 OVER: S:6 K:2"></play>
+      <play number="101"
+            text="UVU subs: Hinton, Izzie; Ward, Brynnly."
+            tokens="SUB:V,11,4,,,,"></play>
+      <play number="102" serveteam="UVU" point="USU" vscore="19" hscore="14"
+            text="[Starley, Sierra] Attack error by Hinton, Izzie."
+            tokens="TEAM:V SERVE:2 D:3 S:5 A:3 D:11 OVER: S:5 A:3 D:6 S:2 A:11,E"></play>
+      <play number="103" serveteam="USU" point="UVU" vscore="20" hscore="14"
+            text="[ANDERSON, Lauren] Kill by Taylor, Brighton."
+            tokens="TEAM:H SERVE:3 D:7 S:2 A:17 D:11 OVER: K:9"></play>
+      <play number="104"
+            text="UVU subs: Martinovic, Marija; Thompson, Lexi; Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,8,17,15,7,,"></play>
+      <play number="105" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="106" serveteam="UVU" point="USU" vscore="20" hscore="15"
+            text="[Martinovic, Marija] Service error."
+            tokens="TEAM:V SERVE:8,E"></play>
+      <play number="107" serveteam="USU" point="USU" vscore="20" hscore="16"
+            text="[TAYLOR, Tasia] Attack error by Taylor, Brighton."
+            tokens="TEAM:H SERVE:2 D:8 S:2 A:9,E"></play>
+      <play number="108" serveteam="USU" point="UVU" vscore="21" hscore="16"
+            text="[TAYLOR, Tasia] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:15 S:2 S:2 K:11"></play>
+      <play number="109" serveteam="UVU" point="USU" vscore="21" hscore="17"
+            text="[Merrill, Seren] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:26 S:5 A:26 D:2 S:6 A:15 D:2 S:5 S:5 K:26"></play>
+      <play number="110" serveteam="USU" point="UVU" vscore="22" hscore="17"
+            text="[DeCOURSEY, Kayla] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:15 S:2 S:2 K:18"></play>
+      <play number="111"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="112" serveteam="UVU" point="UVU" vscore="23" hscore="17"
+            text="[Hinton, Izzie] Attack error by LENZEN, Carly."
+            tokens="TEAM:V SERVE:11 D:3 S:5 A:26 D:8 S:2 A:11 D:13 S:5 A:26 D:15 S:2 OVER: S:5 A:13,E"></play>
+      <play number="113" serveteam="UVU" point="USU" vscore="23" hscore="18"
+            text="[Hinton, Izzie] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:3 S:5 S:5 K:26"></play>
+      <play number="114"
+            text="UVU subs: Ward, Brynnly; Hinton, Izzie."
+            tokens="SUB:V,4,11,,,,"></play>
+      <play number="115" serveteam="USU" point="UVU" vscore="24" hscore="18"
+            text="[GALE-HAMMOND, Rachel] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:8 S:2 S:2 K:15"></play>
+      <play number="116"
+            text="UVU subs: Thompson, Lexi; Martinovic, Marija; Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,17,8,7,15,,"></play>
+      <play number="117" serveteam="UVU" point="UVU" vscore="25" hscore="18"
+            text="[Wardle, Madi] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:7 D:26 S:5 A:3 D:6 S:2 S:2 K:17"></play>
+    </game>
+    <game number="3">
+      <play number="118"
+            text="USU starters: FUNK, Jaysa; LENZEN, Carly; ANDERSON, Lauren; GALE-HAMMOND, Rachel; DeCOURSEY, Kayla; O'BRIEN, Lauren; libero TAYLOR, Tasia."
+            tokens="GAME:3 STARTERS:H,5,13,3,26,11,10,2"></play>
+      <play number="119"
+            text="UVU starters: Davies, Alexis; Hinton, Izzie; Starley, Sierra; Dennison, Madison; Thompson, Lexi; Taylor, Brighton; libero Merrill, Seren."
+            tokens="STARTERS:V,15,11,2,18,17,9,6"></play>
+      <play number="120" serveteam="UVU" point="UVU" vscore="1" hscore="0"
+            text="[Merrill, Seren] Attack error by GALE-HAMMOND, Rachel."
+            tokens="TEAM:V SERVE:6 D:26 S:5 A:10 D:11 OVER: S:5 A:10 D:2 S:6 A:17 D:2 S:5 A:11 D:17 OVER: A:26,E"></play>
+      <play number="121" serveteam="UVU" point="UVU" vscore="2" hscore="0"
+            text="[Merrill, Seren] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:6 D:2 S:5 A:11 D:2 S:6 A:15 D:2 S:5 A:11 D:15 S:11 A:2 D:2 S:3 A:2 D:18 S:2 S:2 K:18"></play>
+      <play number="122" serveteam="UVU" point="UVU" vscore="3" hscore="0"
+            text="[Merrill, Seren] Kill by Thompson, Lexi (from Davies, Alexis)."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:3 D:6 S:15 S:15 K:17"></play>
+      <play number="123" serveteam="UVU" point="UVU" vscore="4" hscore="0"
+            text="[Merrill, Seren] Service ace (ANDERSON, Lauren)."
+            tokens="TEAM:V SERVE:6,A RE:3"></play>
+      <play number="124" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="125" serveteam="UVU" point="UVU" vscore="5" hscore="0"
+            text="[Merrill, Seren] Attack error by ANDERSON, Lauren."
+            tokens="TEAM:V SERVE:6 D:2 S:5 A:11 D:6 S:2 A:17 D:2 S:5 A:3,E"></play>
+      <play number="126" serveteam="UVU" point="USU" vscore="5" hscore="1"
+            text="[Merrill, Seren] Kill by O'BRIEN, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:2 S:5 S:5 K:10"></play>
+      <play number="127" serveteam="USU" point="UVU" vscore="6" hscore="1"
+            text="[ANDERSON, Lauren] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:17 S:2 S:2 K:18"></play>
+      <play number="128" serveteam="UVU" point="USU" vscore="6" hscore="2"
+            text="[Hinton, Izzie] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:2 S:5 A:11 CONT: OVER: OVER: S:5 S:5 K:11"></play>
+      <play number="129" serveteam="USU" point="USU" vscore="6" hscore="3"
+            text="[TAYLOR, Tasia] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:2 D:17 S:2 OVER: S:5 S:5 K:13"></play>
+      <play number="130" serveteam="USU" point="USU" vscore="6" hscore="4"
+            text="[TAYLOR, Tasia] Attack error by Davies, Alexis (block by LENZEN, Carly; DeCOURSEY, Kayla)."
+            tokens="TEAM:H SERVE:2 D:17 S:2 A:15 B:13,11"></play>
+      <play number="131" serveteam="USU" point="UVU" vscore="7" hscore="4"
+            text="[TAYLOR, Tasia] Service error."
+            tokens="TEAM:H SERVE:2,E"></play>
+      <play number="132"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="133" serveteam="UVU" point="UVU" vscore="8" hscore="4"
+            text="[Wardle, Madi] Attack error by GALE-HAMMOND, Rachel."
+            tokens="TEAM:V SERVE:7 D:26 S:5 A:26,E"></play>
+      <play number="134" serveteam="UVU" point="USU" vscore="8" hscore="5"
+            text="[Wardle, Madi] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:7 D:3 S:5 S:5 K:11"></play>
+      <play number="135" serveteam="USU" point="USU" vscore="8" hscore="6"
+            text="[DeCOURSEY, Kayla] Attack error by Dennison, Madison."
+            tokens="TEAM:H SERVE:11 D:6 S:2 A:18,E"></play>
+      <play number="136" serveteam="USU" point="UVU" vscore="9" hscore="6"
+            text="[DeCOURSEY, Kayla] Kill by Thompson, Lexi (from Wardle, Madi)."
+            tokens="TEAM:H SERVE:11 D:7 S:2 A:17 CONT: S:7 S:7 K:17"></play>
+      <play number="137"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="138" serveteam="UVU" point="USU" vscore="9" hscore="7"
+            text="[Dennison, Madison] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:2 S:5 A:26 D:7 S:17 A:18 D:3 S:5 S:5 K:26"></play>
+      <play number="139" serveteam="USU" point="UVU" vscore="10" hscore="7"
+            text="[GALE-HAMMOND, Rachel] Service error."
+            tokens="TEAM:H SERVE:26,E"></play>
+      <play number="140" serveteam="UVU" point="USU" vscore="10" hscore="8"
+            text="[Starley, Sierra] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:2 D:8 S:5 OVER: S:2 A:9 D:2 S:5 S:5 K:13"></play>
+      <play number="141" serveteam="USU" point="UVU" vscore="11" hscore="8"
+            text="[LENZEN, Carly] Kill by Taylor, Brighton (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:13 D:7 S:2 S:2 K:9"></play>
+      <play number="142"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="143" serveteam="UVU" point="USU" vscore="11" hscore="9"
+            text="[Thompson, Lexi] Kill by FUNK, Jaysa (from GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:17 D:26 S:26 K:5"></play>
+      <play number="144"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="145" serveteam="USU" point="USU" vscore="11" hscore="10"
+            text="[FUNK, Jaysa] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:5 D:17 OVER: S:5 S:5 K:11"></play>
+      <play number="146"
+            text="UVU subs: Martinovic, Marija; Thompson, Lexi."
+            tokens="SUB:V,8,17,,,,"></play>
+      <play number="147" serveteam="USU" point="USU" vscore="11" hscore="11"
+            text="[FUNK, Jaysa] Service ace (Martinovic, Marija)."
+            tokens="TEAM:H SERVE:5,A RE:8"></play>
+      <play number="148" serveteam="USU" point="UVU" vscore="12" hscore="11"
+            text="[FUNK, Jaysa] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:8 S:2 A:15 D:3 OVER: S:2 S:2 K:15"></play>
+      <play number="149" serveteam="UVU" point="USU" vscore="12" hscore="12"
+            text="[Merrill, Seren] Kill by DeCOURSEY, Kayla (from O'BRIEN, Lauren)."
+            tokens="TEAM:V SERVE:6 D:3 S:5 A:11 D:18 OVER: S:2 A:3 D:6 S:15 OVER: S:5 A:10 CONT: S:26 A:11 D:8 S:2 A:15 CONT: S:2 A:15 D:5 S:10 S:10 K:11"></play>
+      <play number="150" serveteam="USU" point="USU" vscore="12" hscore="13"
+            text="[ANDERSON, Lauren] Attack error by Hinton, Izzie."
+            tokens="TEAM:H SERVE:3 D:8 S:2 A:11,E"></play>
+      <play number="151" serveteam="USU" point="UVU" vscore="13" hscore="13"
+            text="[ANDERSON, Lauren] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:8 S:2 S:2 K:11"></play>
+      <play number="152" serveteam="UVU" point="USU" vscore="13" hscore="14"
+            text="[Hinton, Izzie] Kill by GALE-HAMMOND, Rachel (from TAYLOR, Tasia)."
+            tokens="TEAM:V SERVE:11 D:2 S:5 A:11 D:18 OVER: S:2 S:2 K:26"></play>
+      <play number="153" serveteam="USU" point="UVU" vscore="14" hscore="14"
+            text="[TAYLOR, Tasia] Attack error by GALE-HAMMOND, Rachel."
+            tokens="TEAM:H SERVE:2 D:15 S:2 A:18 D:2 S:5 A:26,E"></play>
+      <play number="154"
+            text="UVU subs: Thompson, Lexi; Martinovic, Marija; Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,17,8,7,15,,"></play>
+      <play number="155" serveteam="UVU" point="UVU" vscore="15" hscore="14"
+            text="[Wardle, Madi] Attack error by GALE-HAMMOND, Rachel (block by Dennison, Madison; Starley, Sierra)."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:26 D:7 OVER: S:5 A:26 B:18,2"></play>
+      <play number="156" serveteam="UVU" point="UVU" vscore="16" hscore="14"
+            text="[Wardle, Madi] Bad set by FUNK, Jaysa."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:11 D:6 S:7 A:17 D:26 S:5,E"></play>
+      <play number="157" serveteam="UVU" point="USU" vscore="16" hscore="15"
+            text="[Wardle, Madi] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:26 D:7 S:18 A:17 D:2 S:5 S:5 K:13"></play>
+      <play number="158" serveteam="USU" point="USU" vscore="16" hscore="16"
+            text="[DeCOURSEY, Kayla] Kill by GALE-HAMMOND, Rachel (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:11 D:7 S:2 A:18 D:3 S:5 A:26 CONT: S:5 S:5 K:26"></play>
+      <play number="159" serveteam="USU" point="USU" vscore="16" hscore="17"
+            text="[DeCOURSEY, Kayla] Service ace (Wardle, Madi)."
+            tokens="TEAM:H SERVE:11,A RE:7"></play>
+      <play number="160" serveteam="USU" point="UVU" vscore="17" hscore="17"
+            text="[DeCOURSEY, Kayla] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:7 S:2 S:2 K:17"></play>
+      <play number="161"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="162"
+            text="UVU subs: Niutupuivaha, Jasmin; Taylor, Brighton."
+            tokens="SUB:V,12,9,,,,"></play>
+      <play number="163" serveteam="UVU" point="USU" vscore="17" hscore="18"
+            text="[Dennison, Madison] Attack error by Thompson, Lexi."
+            tokens="TEAM:V SERVE:18 D:3 S:5 A:26 D:11 S:2 A:17,E"></play>
+      <play number="164" serveteam="USU" point="UVU" vscore="18" hscore="18"
+            text="[GALE-HAMMOND, Rachel] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:7 S:2 S:2 K:17"></play>
+      <play number="165" serveteam="UVU" point="USU" vscore="18" hscore="19"
+            text="[Starley, Sierra] Kill by LENZEN, Carly (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:2 D:8 S:5 S:5 K:13"></play>
+      <play number="166" serveteam="USU" point="USU" vscore="18" hscore="20"
+            text="[LENZEN, Carly] Attack error by Thompson, Lexi."
+            tokens="TEAM:H SERVE:13 D:7 S:11 A:17,E"></play>
+      <play number="167" serveteam="USU"
+            text="Timeout Utah Valley."
+            tokens="TIMEOUT:V"></play>
+      <play number="168" serveteam="USU" point="UVU" vscore="19" hscore="20"
+            text="[LENZEN, Carly] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:13 D:7 S:2 S:2 K:17"></play>
+      <play number="169"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="170" serveteam="UVU" point="UVU" vscore="20" hscore="20"
+            text="[Thompson, Lexi] Attack error by ANDERSON, Lauren."
+            tokens="TEAM:V SERVE:17 D:8 S:2 A:3 D:17 OVER: S:5 A:3,E"></play>
+      <play number="171" serveteam="UVU" point="USU" vscore="20" hscore="21"
+            text="[Thompson, Lexi] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:17 D:26 S:5 S:5 K:3"></play>
+      <play number="172"
+            text="UVU subs: Martinovic, Marija; Thompson, Lexi."
+            tokens="SUB:V,8,17,,,,"></play>
+      <play number="173"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="174" serveteam="USU" point="USU" vscore="20" hscore="22"
+            text="[FUNK, Jaysa] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:H SERVE:5 D:6 S:2 A:11 D:2 S:5 S:5 K:3"></play>
+      <play number="175" serveteam="USU" point="UVU" vscore="21" hscore="22"
+            text="[FUNK, Jaysa] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:8 S:2 S:2 K:11"></play>
+      <play number="176"
+            text="UVU subs: Boudreaux, Megan; Hinton, Izzie."
+            tokens="SUB:V,5,11,,,,"></play>
+      <play number="177" serveteam="UVU" point="UVU" vscore="22" hscore="22"
+            text="[Merrill, Seren] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:6 D:2 S:5 A:3 CONT: S:2 A:11 D:6 S:2 S:2 K:18"></play>
+      <play number="178" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="179" serveteam="UVU" point="USU" vscore="22" hscore="23"
+            text="[Merrill, Seren] Ball handling error by Merrill, Seren."
+            tokens="TEAM:V SERVE:6 D:2 S:5 A:10 D:2 S:6,H"></play>
+      <play number="180" serveteam="USU" point="UVU" vscore="23" hscore="23"
+            text="[ANDERSON, Lauren] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:8 S:2 A:18 D:3 OVER: S:2 S:2 K:15"></play>
+      <play number="181"
+            text="UVU subs: Hinton, Izzie; Boudreaux, Megan."
+            tokens="SUB:V,11,5,,,,"></play>
+      <play number="182" serveteam="UVU" point="UVU" vscore="24" hscore="23"
+            text="[Hinton, Izzie] Attack error by O'BRIEN, Lauren."
+            tokens="TEAM:V SERVE:11 D:26 S:5 A:10,E"></play>
+      <play number="183" serveteam="UVU" point="USU" vscore="24" hscore="24"
+            text="[Hinton, Izzie] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:2 S:5 A:2 D:11 S:2 OVER: S:5 S:5 K:11"></play>
+      <play number="184" serveteam="USU" point="UVU" vscore="25" hscore="24"
+            text="[TAYLOR, Tasia] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:8 S:2 S:2 K:15"></play>
+      <play number="185"
+            text="UVU subs: Thompson, Lexi; Martinovic, Marija; Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,17,8,7,15,,"></play>
+      <play number="186" serveteam="UVU" point="UVU" vscore="26" hscore="24"
+            text="[Wardle, Madi] Ball handling error by FUNK, Jaysa."
+            tokens="TEAM:V SERVE:7 D:26 S:5,H"></play>
+    </game>
+    <game number="4">
+      <play number="187"
+            text="USU starters: OLSON, Madi; O'BRIEN, Lauren; FUNK, Jaysa; ANDERSON, Lauren; GALE-HAMMOND, Rachel; LENZEN, Carly; libero TAYLOR, Tasia."
+            tokens="GAME:4 STARTERS:H,8,10,5,3,26,13,2"></play>
+      <play number="188"
+            text="UVU starters: Dennison, Madison; Davies, Alexis; Thompson, Lexi; Hinton, Izzie; Starley, Sierra; Niutupuivaha, Jasmin; libero Merrill, Seren."
+            tokens="STARTERS:V,18,15,17,11,2,12,6"></play>
+      <play number="189" serveteam="USU" point="UVU" vscore="1" hscore="0"
+            text="[GALE-HAMMOND, Rachel] Kill by Hinton, Izzie (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:26 D:17 S:2 S:2 K:11"></play>
+      <play number="190" serveteam="UVU" point="USU" vscore="1" hscore="1"
+            text="[Merrill, Seren] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:8 S:5 S:5 K:3"></play>
+      <play number="191" serveteam="USU" point="UVU" vscore="2" hscore="1"
+            text="[LENZEN, Carly] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:13 D:17 S:2 S:2 K:18"></play>
+      <play number="192" serveteam="UVU" point="USU" vscore="2" hscore="2"
+            text="[Hinton, Izzie] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:8 S:5 S:5 K:3"></play>
+      <play number="193"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="194" serveteam="USU" point="UVU" vscore="3" hscore="2"
+            text="[FUNK, Jaysa] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:15 S:2 S:2 K:15"></play>
+      <play number="195"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="196" serveteam="UVU" point="USU" vscore="3" hscore="3"
+            text="[Wardle, Madi] Kill by DeCOURSEY, Kayla."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:11 CONT: K:11"></play>
+      <play number="197"
+            text="USU subs: SHUMWAY, Gabbi; GALE-HAMMOND, Rachel."
+            tokens="SUB:H,39,26,,,,"></play>
+      <play number="198" serveteam="USU" point="UVU" vscore="4" hscore="3"
+            text="[ANDERSON, Lauren] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:6 S:2 S:2 K:17"></play>
+      <play number="199" serveteam="UVU" point="USU" vscore="4" hscore="4"
+            text="[Dennison, Madison] Kill by SHUMWAY, Gabbi (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:39 S:5 A:11 D:7 S:2 A:12 D:3 S:5 S:5 K:39"></play>
+      <play number="200" serveteam="USU" point="UVU" vscore="5" hscore="4"
+            text="[TAYLOR, Tasia] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:7 S:2 S:2 K:17"></play>
+      <play number="201" serveteam="UVU" point="USU" vscore="5" hscore="5"
+            text="[Starley, Sierra] Attack error by Hinton, Izzie."
+            tokens="TEAM:V SERVE:2 D:39 S:5 A:39 D:2 S:7 A:11,E"></play>
+      <play number="202" serveteam="USU" point="UVU" vscore="6" hscore="5"
+            text="[DeCOURSEY, Kayla] Attack error by SHUMWAY, Gabbi."
+            tokens="TEAM:H SERVE:11 D:17 S:6 OVER: S:5 A:39,E"></play>
+      <play number="203"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="204"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="205" serveteam="UVU" point="UVU" vscore="7" hscore="5"
+            text="[Thompson, Lexi] Attack error by LENZEN, Carly (block by Davies, Alexis; Niutupuivaha, Jasmin)."
+            tokens="TEAM:V SERVE:17 D:2 S:5 A:13 B:15,12"></play>
+      <play number="206" serveteam="UVU" point="USU" vscore="7" hscore="6"
+            text="[Thompson, Lexi] Kill by SHUMWAY, Gabbi (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:17 D:2 S:5 S:5 K:39"></play>
+      <play number="207"
+            text="USU subs: GALE-HAMMOND, Rachel; SHUMWAY, Gabbi."
+            tokens="SUB:H,26,39,,,,"></play>
+      <play number="208" serveteam="USU" point="UVU" vscore="8" hscore="6"
+            text="[GALE-HAMMOND, Rachel] Service error."
+            tokens="TEAM:H SERVE:26,E"></play>
+      <play number="209" serveteam="UVU" point="USU" vscore="8" hscore="7"
+            text="[Merrill, Seren] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:6 D:8 S:5 S:5 K:3"></play>
+      <play number="210" serveteam="USU" point="UVU" vscore="9" hscore="7"
+            text="[LENZEN, Carly] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:13 D:17 S:2 S:2 K:17"></play>
+      <play number="211" serveteam="UVU" point="USU" vscore="9" hscore="8"
+            text="[Hinton, Izzie] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:11 D:26 S:5 S:5 K:3"></play>
+      <play number="212"
+            text="USU subs: DeCOURSEY, Kayla; OLSON, Madi."
+            tokens="SUB:H,11,8,,,,"></play>
+      <play number="213"
+            text="UVU subs: Ward, Brynnly; Hinton, Izzie."
+            tokens="SUB:V,4,11,,,,"></play>
+      <play number="214" serveteam="USU" point="UVU" vscore="10" hscore="8"
+            text="[FUNK, Jaysa] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:5 D:15 S:2 S:2 K:15"></play>
+      <play number="215"
+            text="UVU subs: Wardle, Madi; Davies, Alexis."
+            tokens="SUB:V,7,15,,,,"></play>
+      <play number="216" serveteam="UVU" point="UVU" vscore="11" hscore="8"
+            text="[Wardle, Madi] Attack error by O'BRIEN, Lauren (block by Dennison, Madison; Starley, Sierra)."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:10, B:18,2"></play>
+      <play number="217" serveteam="UVU" point="USU" vscore="11" hscore="9"
+            text="[Wardle, Madi] Kill by DeCOURSEY, Kayla (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:7 D:3 S:5 A:3 D:18 S:2 A:17 D:11 S:5 K:11"></play>
+      <play number="218" serveteam="USU" point="UVU" vscore="12" hscore="9"
+            text="[ANDERSON, Lauren] Kill by Dennison, Madison (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:3 D:6 S:2 S:2 K:18"></play>
+      <play number="219" serveteam="UVU" point="UVU" vscore="13" hscore="9"
+            text="[Dennison, Madison] Attack error by SHUMWAY, Gabbi (block by Starley, Sierra; Niutupuivaha, Jasmin)."
+            tokens="TEAM:V SERVE:18 D:39 S:5 A:11 D:4 A:2 D:39 OVER: S:2 A:12 CONT: OVER: S:5 A:39 B:2,12"></play>
+      <play number="220" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="221" serveteam="UVU" point="USU" vscore="13" hscore="10"
+            text="[Dennison, Madison] Kill by ANDERSON, Lauren (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:18 D:39 S:5 S:5 K:3"></play>
+      <play number="222" serveteam="USU" point="USU" vscore="13" hscore="11"
+            text="[TAYLOR, Tasia] Attack error by Thompson, Lexi (block by DeCOURSEY, Kayla; LENZEN, Carly)."
+            tokens="TEAM:H SERVE:2 D:7 S:2 A:17 B:11,13"></play>
+      <play number="223" serveteam="USU" point="USU" vscore="13" hscore="12"
+            text="[TAYLOR, Tasia] Attack error by Niutupuivaha, Jasmin (block by SHUMWAY, Gabbi; LENZEN, Carly)."
+            tokens="TEAM:H SERVE:2 D:17 S:2 A:17 D:5 S:2 A:39 D:6 A:2 D:5 S:11 OVER: S:2 A:12 B:39,13"></play>
+      <play number="224" serveteam="USU" point="UVU" vscore="14" hscore="12"
+            text="[TAYLOR, Tasia] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:2 D:17 S:2 S:2 K:17"></play>
+      <play number="225"
+            text="UVU subs: Boudreaux, Megan; Ward, Brynnly."
+            tokens="SUB:V,5,4,,,,"></play>
+      <play number="226" serveteam="UVU" point="UVU" vscore="15" hscore="12"
+            text="[Starley, Sierra] Service ace (SHUMWAY, Gabbi)."
+            tokens="TEAM:V SERVE:2,A RE:39"></play>
+      <play number="227" serveteam="UVU" point="USU" vscore="15" hscore="13"
+            text="[Starley, Sierra] Kill by SHUMWAY, Gabbi (from FUNK, Jaysa)."
+            tokens="TEAM:V SERVE:2 D:11 S:5 S:5 K:39"></play>
+      <play number="228" serveteam="USU" point="UVU" vscore="16" hscore="13"
+            text="[DeCOURSEY, Kayla] Kill by Thompson, Lexi (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:11 D:17 S:2 S:2 K:17"></play>
+      <play number="229"
+            text="USU subs: OLSON, Madi; DeCOURSEY, Kayla."
+            tokens="SUB:H,8,11,,,,"></play>
+      <play number="230"
+            text="UVU subs: Davies, Alexis; Wardle, Madi."
+            tokens="SUB:V,15,7,,,,"></play>
+      <play number="231" serveteam="UVU" point="UVU" vscore="17" hscore="13"
+            text="[Thompson, Lexi] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:17 D:2 S:5 A:13 D:17 S:2 S:2 K:15"></play>
+      <play number="232" serveteam="UVU" point="UVU" vscore="18" hscore="13"
+            text="[Thompson, Lexi] Ball handling error by FUNK, Jaysa."
+            tokens="TEAM:V SERVE:17 D:8 S:5,H"></play>
+      <play number="233" serveteam="UVU"
+            text="Timeout Utah State."
+            tokens="TIMEOUT:H"></play>
+      <play number="234" serveteam="UVU" point="UVU" vscore="19" hscore="13"
+            text="[Thompson, Lexi] Service ace (OLSON, Madi)."
+            tokens="TEAM:V SERVE:17,A RE:8"></play>
+      <play number="235" serveteam="UVU" point="USU" vscore="19" hscore="14"
+            text="[Thompson, Lexi] Service error."
+            tokens="TEAM:V SERVE:17,E"></play>
+      <play number="236"
+            text="UVU subs: Martinovic, Marija; Thompson, Lexi."
+            tokens="SUB:V,8,17,,,,"></play>
+      <play number="237"
+            text="USU subs: GALE-HAMMOND, Rachel; SHUMWAY, Gabbi."
+            tokens="SUB:H,26,39,,,,"></play>
+      <play number="238" serveteam="USU" point="UVU" vscore="20" hscore="14"
+            text="[GALE-HAMMOND, Rachel] Service error."
+            tokens="TEAM:H SERVE:26,E"></play>
+      <play number="239" serveteam="UVU" point="UVU" vscore="21" hscore="14"
+            text="[Merrill, Seren] Service ace (GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:6,A RE:26"></play>
+      <play number="240" serveteam="UVU" point="USU" vscore="21" hscore="15"
+            text="[Merrill, Seren] Kill by ANDERSON, Lauren (from FUNK, Jaysa), block error by Boudreaux, Megan."
+            tokens="TEAM:V SERVE:6 D:2 S:5 A:3 D:6 OVER: S:5 S:3 A:3 BE:5"></play>
+      <play number="241" serveteam="USU" point="UVU" vscore="22" hscore="15"
+            text="[LENZEN, Carly] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:H SERVE:13 D:8 S:2 S:2 K:15"></play>
+      <play number="242"
+            text="USU subs: DOWNING, Bailey; O'BRIEN, Lauren."
+            tokens="SUB:H,9,10,,,,"></play>
+      <play number="243"
+            text="UVU subs: Hinton, Izzie; Boudreaux, Megan."
+            tokens="SUB:V,11,5,,,,"></play>
+      <play number="244" serveteam="UVU" point="UVU" vscore="23" hscore="15"
+            text="[Hinton, Izzie] Attack error by ANDERSON, Lauren (block by Dennison, Madison; Starley, Sierra)."
+            tokens="TEAM:V SERVE:11 D:26 S:5 A:3 D:6 S:2 A:15 D:8 S:5 A:3 D:11 OVER: S:5 A:3 B:18,2"></play>
+      <play number="245" serveteam="UVU" point="UVU" vscore="24" hscore="15"
+            text="[Hinton, Izzie] Service ace (GALE-HAMMOND, Rachel)."
+            tokens="TEAM:V SERVE:11,A RE:26"></play>
+      <play number="246" serveteam="UVU" point="UVU" vscore="25" hscore="15"
+            text="[Hinton, Izzie] Kill by Davies, Alexis (from Starley, Sierra)."
+            tokens="TEAM:V SERVE:11 D:3 S:5 A:3 D:18 S:2 S:2 K:15"></play>
+    </game>
+  </plays>
+  <analysis>
+  </analysis>
+  <status complete="Y" vscore="3" hscore="1" game="4" serving="V" vpoints="25" hpoints="15"></status>
+  <leadchanges ties="19" leads="5">
+    <leadchange game="1" ties="2" leads="0"></leadchange>
+    <leadchange game="2" ties="1" leads="1"></leadchange>
+    <leadchange game="3" ties="11" leads="4"></leadchange>
+    <leadchange game="4" ties="5" leads="0"></leadchange>
+  </leadchanges>
+  <breakdowns vh="V" pts="94" kill="52" ace="6" block="8" eatk="15" esvc="9" ebhe="4">
+    <breakdown game="1" pts="18" kill="7" ace="1" block="1" eatk="5" esvc="3" ebhe="1"></breakdown>
+    <breakdown game="2" pts="25" kill="18" ace="0" block="2" eatk="3" esvc="2" ebhe="0"></breakdown>
+    <breakdown game="3" pts="26" kill="14" ace="1" block="1" eatk="6" esvc="2" ebhe="2"></breakdown>
+    <breakdown game="4" pts="25" kill="13" ace="4" block="4" eatk="1" esvc="2" ebhe="1"></breakdown>
+  </breakdowns>
+  <breakdowns vh="H" pts="82" kill="54" ace="6" block="7" eatk="11" esvc="3" ebhe="1">
+    <breakdown game="1" pts="25" kill="16" ace="1" block="4" eatk="4" esvc="0" ebhe="0"></breakdown>
+    <breakdown game="2" pts="18" kill="11" ace="3" block="0" eatk="2" esvc="2" ebhe="0"></breakdown>
+    <breakdown game="3" pts="24" kill="16" ace="2" block="1" eatk="4" esvc="0" ebhe="1"></breakdown>
+    <breakdown game="4" pts="15" kill="11" ace="0" block="2" eatk="1" esvc="1" ebhe="0"></breakdown>
+  </breakdowns>
+</vbgame>
