@@ -8,9 +8,11 @@ require(data.table)
 require(magrittr)
 require(tidyr)
 library(dplyr)
+
 # Parse the xml file
 xmlTest = xmlParse(file = "../Data/Volleyball/2017/2017ULM.xml")
 xmlTest = xmlParse(file = "2017ULM.xml")
+
 # Convert the xml file to a lists of lists in R
 xmlDoc = xmlToList(xmlTest)
 
