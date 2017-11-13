@@ -1,6 +1,6 @@
 # Code to learn how to use XML to extract sports Data
-install.packages("XML")
-install.packages("data.table") 
+#install.packages("XML")
+#install.packages("data.table") 
 
 # Load required packages
 require(XML)
@@ -82,8 +82,8 @@ playDF_2 <- makePlayDf(plays[[2]])
 playDf_3 <- makePlayDf(plays[[3]])
 
 # Beginning attempts to count the volleys
-# playInfo <- as.vector(playDF_1$tokens)
-# test <- unlist(strsplit(playInfo[28], "(?<=(A:\\d)|(SERVE:\\d)|(OVER:))", perl = TRUE))
+playInfo <- as.vector(playDF_1$tokens)
+test <- unlist(strsplit(playInfo[28], "(?<=(A:\\d)|(SERVE:\\d)|(OVER:))", perl = TRUE))
 
 # Splitting up the information for the play into volleys
 # This regular expression doesn't take into account service Aces, denoted by 
@@ -93,7 +93,9 @@ playDf_3 <- makePlayDf(plays[[3]])
 # So not ALL of the volleycounts are necessarily correct here.
 
 volleycounter <- function(dfTokens) {
-  volleys <- unlist(strsplit(as.vector(dfTokens), "(?<=(A:\\d)|(SERVE:\\d)|(OVER:))", perl = TRUE))
+  volleys <- unlist(strsplit(as.vector(dfTokens), "(?<=(A:\\d)|(SERVE:\\d)|(OVER:)|(CONT:))", perl = TRUE))
+  if (sum(grep(",[[:upper:]]", dfTokens))) {
+    return(length(volleys)-1)}
   return(length(volleys))
 }
 playDF_1$volleys <- rapply(as.list(playDF_1$tokens), volleycounter)
