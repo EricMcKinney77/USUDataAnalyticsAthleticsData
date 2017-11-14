@@ -95,7 +95,7 @@ test <- unlist(strsplit(playInfo[28], "(?<=(A:\\d)|(SERVE:\\d)|(OVER:))", perl =
 # So not ALL of the volleycounts are necessarily correct here.
 
 volleycounter <- function(dfTokens) {
-  volleys <- unlist(strsplit(as.vector(dfTokens), "(?<=(A:\\d)|(SERVE:\\d)|(OVER:)|(CONT:))", perl = TRUE))
+  volleys <- unlist(strsplit(as.vector(dfTokens), "(?<=(A:\\d)|(SERVE:\\d)|(OVER:))", perl = TRUE))
   if (sum(grep(",[[:upper:]]", dfTokens))) {
     return(length(volleys)-1)}
   return(length(volleys))
