@@ -46,11 +46,36 @@ makePlayDf <- function(playData){
 splittingByVolley <- function(df) {
   df$primaryKey <- 1:length(df$number)
   df1 <- df %>%
-    mutate(tokens = strsplit(tokens, "(A:\\d\\s)|(A:\\d\\d\\s)|(SERVE:\\d\\s)|(SERVE:\\d\\d\\s)|(OVER:)")) %>%
+    mutate(tokens = strsplit(tokens, "(A:\\d\\s)|(A:\\d\\d\\s)|(SERVE:\\d\\s)|(SERVE:\\d\\d\\s)|(OVER:)|(CONT:)")) %>%
     unnest(tokens)
-  df1$tokens <- unlist(strsplit(df$tokens, "(?<=(A:\\d\\s)|(A:\\d\\d\\s)|(SERVE:\\d\\s)|(SERVE:\\d\\d\\s)|(OVER:))", perl = TRUE))
+  df1$tokens <- unlist(strsplit(df$tokens, "(?<=(A:\\d\\s)|(A:\\d\\d\\s)|(SERVE:\\d\\s)|(SERVE:\\d\\d\\s)|(OVER:)|(CONT:))", perl = TRUE))
   return(df1)
 }
+
+# Creating a column in the dataframe to indicate which team played in that volley
+PlayingTeamIndicator <- function(df){
+  # Creating a column of NA's called playingTeam
+  df$playingTeam <- NA
+  
+  # Filling the playingTeam indicator column with "Home" when Home serves
+  df$playingTeam[grepl("TEAM:H SERVE:", df$tokens)] <- "Home"
+  # Filling the playingTeam indicator column with "Visitor" when Visitor serves
+  df$playingTeam[grepl("TEAM:V SERVE:", df$tokens)] <- "Visitor"
+  
+  # For loop, to cyclically change the playingTeam indicator column with "Home" 
+  # or "Visitor", depending on what the previous row's indicator was.
+  j <- 1
+  for (i in df$playingTeam){
+    if (is.na(df$playingTeam[j])){
+      ifelse(df$playingTeam[j-1] == "Home",
+             df$playingTeam[j] <- "Visitor",
+             df$playingTeam[j] <- "Home")
+    }
+    j <- j+1
+  }
+  return(as.data.frame(df))
+}
+
 
 # Main Code ------------------------------------------------------------------------
 # Parse the xml file
@@ -102,3 +127,7 @@ playDF_1Split <- splittingByVolley(playDF_1)
 playDF_2Split <- splittingByVolley(playDF_2)
 playDF_3Split <- splittingByVolley(playDF_3)
 
+# Creating playing Team indicator column
+playDF_1Split <- PlayingTeamIndicator(playDF_1Split)
+playDF_2Split <- PlayingTeamIndicator(playDF_2Split)
+playDF_3Split <- PlayingTeamIndicator(playDF_3Split)
