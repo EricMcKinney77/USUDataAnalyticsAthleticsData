@@ -183,16 +183,23 @@ game1RF <- randomForest(x = game1df[,11:18],
                         which.class = "USU")
 varImpPlot(game1RF)
 
+
 game2RF <- randomForest(x = game2df[,11:18], 
                         y = game2df[,3], 
                         importance = TRUE,
-                        which.class = "USU")
+                        which.class = "USU",
+                        classwt = c(.5, .5),
+                        ntree = 1000,
+                        mtry = 4)
 varImpPlot(game2RF)
 
 game3RF <- randomForest(x = game3df[,11:18], 
                         y = game3df[,3], 
                         importance = TRUE,
-                        which.class = "USU")
+                        which.class = "USU",
+                        mtry = 4)
 varImpPlot(game3RF)
 
 
+game1RF$confusion
+game2RF$confusion
