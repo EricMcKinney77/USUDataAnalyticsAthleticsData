@@ -9,6 +9,7 @@ require(magrittr)
 require(tidyr)
 library(dplyr)
 library(randomForest)
+library(sqldf)
 
 # Functions --------------------------------------------------------------------
 # Creating the volleyCounter function
@@ -79,6 +80,50 @@ PlayingTeamIndicator <- function(df){
   return(as.data.frame(df))
 }
 
+homeVisitorTeamDF <- function(df, homeVisitor){
+  # Subsetting into just the home team dataframe
+  playDF1Home <- df[df$playingTeam == homeVisitor,]
+  
+  # Removing rebound errors (RE), and creating a vector of the tokens
+  playerNumbers <- gsub("RE:\\d+", "", playDF1Home$tokens)
+  # Pulling out a vector of all the numbers of players in playerNumbers
+  USUPlayers <- regmatches(playerNumbers, 
+                           gregexpr("(\\d\\s)|(\\d\\d)|(\\d,)|(\\d)", 
+                                    playerNumbers))
+  # Creating vector of player combinations (31!)
+  USUPlayerCombinations <- unique(USUPlayers)
+  
+  # Getting the unique player numbers, just the numbers of girls on the team that played
+  USUPlayers <- unlist(USUPlayers)
+  USUPlayers <- gsub(" ", "", USUPlayers)
+  USUPlayers <- gsub(",", "", USUPlayers) %>%
+    unique()
+  
+  # Creating Dummy Variable columns
+  end <- 10+length(USUPlayers)
+  for (i in 11:end){
+    playDF1Home[,i] <- NA
+  }
+  # Naming the columns after the players
+  columnNames <- lapply(USUPlayers, paste, "player", sep="")
+  names(playDF1Home)[11:end] <- columnNames
+  
+  # Adding a space at the end so the next regular expression will work
+  playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
+  
+  # Using regular expressions and a for loop to cycle through players, and create
+  # indicator variables if that player played in that volley.
+  j <- 11
+  for (i in USUPlayers){
+    test <- paste(":", i, sep="") %>%
+      paste("\\s", sep="")
+    playDF1Home[grepl(test, playDF1Home$tokens),j] <- 1
+    playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
+    j <- j+1
+  }
+  playDF1Home$point <- as.factor(playDF1Home$point)
+  return(playDF1Home)
+}
 
 # Main Code ------------------------------------------------------------------------
 # Parse the xml file
@@ -125,98 +170,12 @@ playDF1 <- makePlayDf(plays[[1]])
 playDF2 <- makePlayDf(plays[[2]])
 playDF3 <- makePlayDf(plays[[3]])
 
-homeTeamDF <- function(df){
-  # Subsetting into just the home team dataframe
-  playDF1Home <- df[df$playingTeam=="Home",]
-  
-  # Removing rebound errors (RE), and creating a vector of the tokens
-  playerNumbers <- gsub("RE:\\d+", "", playDF1Home$tokens)
-  # Pulling out a vector of all the numbers of players in playerNumbers
-  USUPlayers <- regmatches(playerNumbers, 
-                           gregexpr("(\\d\\s)|(\\d\\d)|(\\d,)|(\\d)", 
-                                    playerNumbers))
-  # Creating vector of player combinations (31!)
-  USUPlayerCombinations <- unique(USUPlayers)
-  
-  # Getting the unique player numbers, just the numbers of girls on the team that played
-  USUPlayers <- unlist(USUPlayers)
-  USUPlayers <- gsub(" ", "", USUPlayers)
-  USUPlayers <- gsub(",", "", USUPlayers) %>%
-    unique()
-  
-  # Creating Dummy Variable columns
-  end <- 10+length(USUPlayers)
-  for (i in 11:end){
-    playDF1Home[,i] <- NA
-  }
-  # Naming the columns after the players
-  columnNames <- lapply(USUPlayers, paste, "player", sep="")
-  names(playDF1Home)[11:end] <- columnNames
-  
-  # Adding a space at the end so the next regular expression will work
-  playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
-  
-  # Using regular expressions and a for loop to cycle through players, and create
-  # indicator variables if that player played in that volley.
-  j <- 11
-  for (i in USUPlayers){
-    test <- paste(":", i, sep="") %>%
-      paste("\\s", sep="")
-    playDF1Home[grepl(test, playDF1Home$tokens),j] <- 1
-    playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
-    j <- j+1
-  }
-  playDF1Home$point <- as.factor(playDF1Home$point)
-  return(playDF1Home)
-}
-# # Subsetting into just the home team dataframe
-# playDF1Home <- playDF1[playDF1$playingTeam=="Home",]
-# playDF2Home <- playDF2[playDF2$playingTeam=="Home",]
-# playDF3Home <- playDF3[playDF3$playingTeam=="Home",]
-# 
-# # Removing rebound errors (RE), and creating a vector of the tokens
-# playerNumbers <- gsub("RE:\\d+", "", playDF1Home$tokens)
-# # Pulling out a vector of all the numbers of players in playerNumbers
-# USUPlayers <- regmatches(playerNumbers, 
-#                    gregexpr("(\\d\\s)|(\\d\\d)|(\\d,)|(\\d)", 
-#                             playerNumbers))
-# # Creating vector of player combinations (31!)
-# USUPlayerCombinations <- unique(USUPlayers)
-# 
-# # Getting the unique player numbers, just the numbers of girls on the team that played
-# USUPlayers <- unlist(USUPlayers)
-# USUPlayers <- gsub(" ", "", USUPlayers)
-# USUPlayers <- gsub(",", "", USUPlayers) %>%
-#   unique()
-# 
-# # Creating Dummy Variable columns
-# end <- 10+length(USUPlayers)
-# for (i in 11:end){
-#   playDF1Home[,i] <- NA
-# }
-# # Naming the columns after the players
-# columnNames <- lapply(players, paste, USUPlayers, sep="")
-# names(playDF1Home)[11:end] <- columnNames
-# 
-# # Adding a space at the end so the next regular expression will work
-# playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
-# 
-# # Using regular expressions and a for loop to cycle through players, and create
-# # indicator variables if that player played in that volley.
-# j <- 11
-# for (i in USUPlayers){
-#   test <- paste(":", i, sep="") %>%
-#     paste("\\s", sep="")
-#   playDF1Home[grepl(test, playDF1Home$tokens),j] <- 1
-#   playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
-#   j <- j+1
-# }
-# playDF1Home$point <- as.factor(playDF1Home$point)
+# Creating Home team 
+game1df <- homeVisitorTeamDF(playDF1, "Home")
+game2df <- homeVisitorTeamDF(playDF2, "Home")
+game3df <- homeVisitorTeamDF(playDF3, "Home")
 
-game1df <- homeTeamDF(playDF1)
-game2df <- homeTeamDF(playDF2)
-game3df <- homeTeamDF(playDF3)
-
+# Running a random forest predicting point based off of the players
 set.seed(33)
 game1RF <- randomForest(x = game1df[,11:18], 
                         y = game1df[,3], 
@@ -235,3 +194,5 @@ game3RF <- randomForest(x = game3df[,11:18],
                         importance = TRUE,
                         which.class = "USU")
 varImpPlot(game3RF)
+
+
