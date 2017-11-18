@@ -8,6 +8,7 @@ require(data.table)
 require(magrittr)
 require(tidyr)
 library(dplyr)
+library(randomForest)
 
 # Functions --------------------------------------------------------------------
 # Creating the volleyCounter function
@@ -39,6 +40,8 @@ makePlayDf <- function(playData){
            number = as.numeric(number)
     )
   playDF_1$volleys <- rapply(as.list(playDF_1$tokens), volleycounter)
+  playDF_1 <- splittingByVolley(playDF_1)
+  playDF_1 <- PlayingTeamIndicator(playDF_1)
   return(playDF_1)
 }
 
@@ -79,7 +82,7 @@ PlayingTeamIndicator <- function(df){
 
 # Main Code ------------------------------------------------------------------------
 # Parse the xml file
-xmlTest = xmlParse(file = "../Data/Volleyball/2017/2017ULM.xml")
+#xmlTest = xmlParse(file = "../Data/Volleyball/2017/2017ULM.xml")
 xmlTest = xmlParse(file = "2017ULM.xml")
 
 # Convert the xml file to a lists of lists in R
@@ -117,17 +120,118 @@ remove(stat_list, stat_final_list, playerInfo_1, playerInfo_2, playerInfo)
 ### Make data table of the play by play ###
 plays = xmlDoc$plays
 
-#Create 1st, 2nd, and 3rd game dataframes 
-playDF_1 <- makePlayDf(plays[[1]])
-playDF_2 <- makePlayDf(plays[[2]])
-playDF_3 <- makePlayDf(plays[[3]])
+# Create 1st, 2nd, and 3rd game dataframes 
+playDF1 <- makePlayDf(plays[[1]])
+playDF2 <- makePlayDf(plays[[2]])
+playDF3 <- makePlayDf(plays[[3]])
 
-# Creating dataframes split by volley
-playDF_1Split <- splittingByVolley(playDF_1)
-playDF_2Split <- splittingByVolley(playDF_2)
-playDF_3Split <- splittingByVolley(playDF_3)
+homeTeamDF <- function(df){
+  # Subsetting into just the home team dataframe
+  playDF1Home <- df[df$playingTeam=="Home",]
+  
+  # Removing rebound errors (RE), and creating a vector of the tokens
+  playerNumbers <- gsub("RE:\\d+", "", playDF1Home$tokens)
+  # Pulling out a vector of all the numbers of players in playerNumbers
+  USUPlayers <- regmatches(playerNumbers, 
+                           gregexpr("(\\d\\s)|(\\d\\d)|(\\d,)|(\\d)", 
+                                    playerNumbers))
+  # Creating vector of player combinations (31!)
+  USUPlayerCombinations <- unique(USUPlayers)
+  
+  # Getting the unique player numbers, just the numbers of girls on the team that played
+  USUPlayers <- unlist(USUPlayers)
+  USUPlayers <- gsub(" ", "", USUPlayers)
+  USUPlayers <- gsub(",", "", USUPlayers) %>%
+    unique()
+  
+  # Creating Dummy Variable columns
+  end <- 10+length(USUPlayers)
+  for (i in 11:end){
+    playDF1Home[,i] <- NA
+  }
+  # Naming the columns after the players
+  columnNames <- lapply(USUPlayers, paste, "player", sep="")
+  names(playDF1Home)[11:end] <- columnNames
+  
+  # Adding a space at the end so the next regular expression will work
+  playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
+  
+  # Using regular expressions and a for loop to cycle through players, and create
+  # indicator variables if that player played in that volley.
+  j <- 11
+  for (i in USUPlayers){
+    test <- paste(":", i, sep="") %>%
+      paste("\\s", sep="")
+    playDF1Home[grepl(test, playDF1Home$tokens),j] <- 1
+    playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
+    j <- j+1
+  }
+  playDF1Home$point <- as.factor(playDF1Home$point)
+  return(playDF1Home)
+}
+# # Subsetting into just the home team dataframe
+# playDF1Home <- playDF1[playDF1$playingTeam=="Home",]
+# playDF2Home <- playDF2[playDF2$playingTeam=="Home",]
+# playDF3Home <- playDF3[playDF3$playingTeam=="Home",]
+# 
+# # Removing rebound errors (RE), and creating a vector of the tokens
+# playerNumbers <- gsub("RE:\\d+", "", playDF1Home$tokens)
+# # Pulling out a vector of all the numbers of players in playerNumbers
+# USUPlayers <- regmatches(playerNumbers, 
+#                    gregexpr("(\\d\\s)|(\\d\\d)|(\\d,)|(\\d)", 
+#                             playerNumbers))
+# # Creating vector of player combinations (31!)
+# USUPlayerCombinations <- unique(USUPlayers)
+# 
+# # Getting the unique player numbers, just the numbers of girls on the team that played
+# USUPlayers <- unlist(USUPlayers)
+# USUPlayers <- gsub(" ", "", USUPlayers)
+# USUPlayers <- gsub(",", "", USUPlayers) %>%
+#   unique()
+# 
+# # Creating Dummy Variable columns
+# end <- 10+length(USUPlayers)
+# for (i in 11:end){
+#   playDF1Home[,i] <- NA
+# }
+# # Naming the columns after the players
+# columnNames <- lapply(players, paste, USUPlayers, sep="")
+# names(playDF1Home)[11:end] <- columnNames
+# 
+# # Adding a space at the end so the next regular expression will work
+# playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
+# 
+# # Using regular expressions and a for loop to cycle through players, and create
+# # indicator variables if that player played in that volley.
+# j <- 11
+# for (i in USUPlayers){
+#   test <- paste(":", i, sep="") %>%
+#     paste("\\s", sep="")
+#   playDF1Home[grepl(test, playDF1Home$tokens),j] <- 1
+#   playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
+#   j <- j+1
+# }
+# playDF1Home$point <- as.factor(playDF1Home$point)
 
-# Creating playing Team indicator column
-playDF_1Split <- PlayingTeamIndicator(playDF_1Split)
-playDF_2Split <- PlayingTeamIndicator(playDF_2Split)
-playDF_3Split <- PlayingTeamIndicator(playDF_3Split)
+game1df <- homeTeamDF(playDF1)
+game2df <- homeTeamDF(playDF2)
+game3df <- homeTeamDF(playDF3)
+
+set.seed(33)
+game1RF <- randomForest(x = game1df[,11:18], 
+                        y = game1df[,3], 
+                        importance = TRUE,
+                        which.class = "USU")
+varImpPlot(game1RF)
+
+game2RF <- randomForest(x = game2df[,11:18], 
+                        y = game2df[,3], 
+                        importance = TRUE,
+                        which.class = "USU")
+varImpPlot(game2RF)
+
+game3RF <- randomForest(x = game3df[,11:18], 
+                        y = game3df[,3], 
+                        importance = TRUE,
+                        which.class = "USU")
+varImpPlot(game3RF)
