@@ -203,3 +203,33 @@ varImpPlot(game3RF)
 
 game1RF$confusion
 game2RF$confusion
+
+x <- c(sum(game1df$`8player`), sum(game1df$`6player`), sum(game1df$`3player`), sum(game1df$`2player`),
+sum(game1df$`13player`), sum(game1df$`26player`), sum(game1df$`10player`), sum(game1df$`11player`))
+x
+
+
+# Binds the three games together.
+test <- list(game1df, game2df, game3df)
+test1 <- rbindlist(test, fill=TRUE) 
+test1[is.na(test1)] <- 0
+
+
+matchRF <- randomForest(x = test1[,11:21],
+                        y = as.factor(test1$point),
+                        importance = TRUE,
+                        which.class = "USU",
+                        classwt = c(.5,.5))
+matchRF$confusion
+varImpPlot(matchRF)
+
+# TODO: Look at making the indicators for players into factor levels
+
+test1.2 <- test1 %>% select(primaryKey,`8player`:`5player`) %>% group_by(primaryKey) %>% summarize_all(sum)
+test1.3 <- left_join(test1.2, test1, by="primaryKey")
+# TODO: Use join to get the "point" in the same df as the summarized 
+# player indicators
+
+# TODO: bind the games together before doing primary key etc.
+# OR could number the games for each game, then the combination of primary key
+# and game number, and group off of that ombination.
