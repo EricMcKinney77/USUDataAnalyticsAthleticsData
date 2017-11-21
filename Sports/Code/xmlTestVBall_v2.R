@@ -170,7 +170,7 @@ playDF1 <- makePlayDf(plays[[1]])
 playDF2 <- makePlayDf(plays[[2]])
 playDF3 <- makePlayDf(plays[[3]])
 
-# Creating Home team 
+# Creating Home team sub dataframe
 game1df <- homeVisitorTeamDF(playDF1, "Home")
 game2df <- homeVisitorTeamDF(playDF2, "Home")
 game3df <- homeVisitorTeamDF(playDF3, "Home")
@@ -204,9 +204,10 @@ varImpPlot(game3RF)
 game1RF$confusion
 game2RF$confusion
 
+# Finding how much each player played in the game
 x <- c(sum(game1df$`8player`), sum(game1df$`6player`), sum(game1df$`3player`), sum(game1df$`2player`),
 sum(game1df$`13player`), sum(game1df$`26player`), sum(game1df$`10player`), sum(game1df$`11player`))
-x
+hist(x)
 
 
 # Binds the three games together.
@@ -214,7 +215,7 @@ test <- list(game1df, game2df, game3df)
 test1 <- rbindlist(test, fill=TRUE) 
 test1[is.na(test1)] <- 0
 
-
+# Creating a Random Forest predicting point off of each player for the whole match
 matchRF <- randomForest(x = test1[,11:21],
                         y = as.factor(test1$point),
                         importance = TRUE,
