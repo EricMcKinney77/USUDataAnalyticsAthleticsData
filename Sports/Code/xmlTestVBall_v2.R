@@ -249,5 +249,3 @@ groupedMatchRF <- randomForest(x = test1.3[,3:13],
                         which.class = "USU")
 groupedMatchRF$confusion
 varImpPlot(matchRF)
-
-
