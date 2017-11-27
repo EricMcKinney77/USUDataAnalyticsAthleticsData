@@ -222,21 +222,32 @@ Matchdf[is.na(Matchdf)] <- 0
 matchRF <- randomForest(x = Matchdf[,11:21],
                         y = as.factor(Matchdf$point),
                         importance = TRUE,
-                        which.class = "USU",
-                        classwt = c(.5,.5))
+                        which.class = "USU")
 matchRF$confusion
 varImpPlot(matchRF)
 
+# Making the player indicators not be factors... just for the group by.
+Matchdf[,12:22] <- lapply(Matchdf[,12:22], as.character)
 Matchdf[,12:22] <- lapply(Matchdf[,12:22], as.numeric)
 
-test1.2 <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey, gameNumber) %>% summarize_all(sum)
-test1.3 <- left_join(test1.2, Matchdf, by="playKey")
 
-test1.4 <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey) %>% summarize_all(sum)
+# Grouping by playKey and GameNumber to put volleys back into plays
+playsMatchdf <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey, gameNumber) %>% summarize_all(sum)
+pointGroupedDF <- Matchdf %>% 
+  select(playKey, gameNumber, point) %>% 
+  group_by(playKey, gameNumber) %>% 
+  arrange(playKey, gameNumber) %>% 
+  slice(1)
 
-# TODO: Use join to get the "point" in the same df as the summarized 
-# player indicators
 
-# TODO: bind the games together before doing primary key etc.
-# OR could number the games for each game, then the combination of primary key
-# and game number, and group off of that ombination.
+test1.3 <- cbind(playsMatchdf, pointGroupedDF)
+test1.3[,3:13] <- lapply(test1.3[,3:13], as.factor)
+
+groupedMatchRF <- randomForest(x = test1.3[,3:13],
+                        y = as.factor(test1.3$point),
+                        importance = TRUE,
+                        which.class = "USU")
+groupedMatchRF$confusion
+varImpPlot(matchRF)
+
+
