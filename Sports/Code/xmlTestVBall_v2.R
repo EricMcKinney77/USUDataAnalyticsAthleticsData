@@ -25,7 +25,7 @@ volleycounter <- function(dfTokens) {
 
 
 #Creating the makePlayDf function
-makePlayDf <- function(playData){
+makePlayDf <- function(playData, gameNum){
   # Make a list of the length of each stat line, the game by game stats will all have between 7 and 11 entries
   playList = as.numeric(summary(playData)[,1])
   # This line needs to be updated. Plays are length 7, subs are lenghth 3
@@ -42,13 +42,14 @@ makePlayDf <- function(playData){
     )
   playDF_1$volleys <- rapply(as.list(playDF_1$tokens), volleycounter)
   playDF_1 <- splittingByVolley(playDF_1)
+  playDF_1$gameNumber <- gameNum
   playDF_1 <- PlayingTeamIndicator(playDF_1)
   return(playDF_1)
 }
 
 # Creating function to split the dataframe into rows by each volley in a token
 splittingByVolley <- function(df) {
-  df$primaryKey <- 1:length(df$number)
+  df$playKey <- 1:length(df$number)
   df1 <- df %>%
     mutate(tokens = strsplit(tokens, "(A:\\d\\s)|(A:\\d\\d\\s)|(SERVE:\\d\\s)|(SERVE:\\d\\d\\s)|(OVER:)|(CONT:)")) %>%
     unnest(tokens)
@@ -100,20 +101,20 @@ homeVisitorTeamDF <- function(df, homeVisitor){
     unique()
   
   # Creating Dummy Variable columns
-  end <- 10+length(USUPlayers)
+  end <- 11+length(USUPlayers)
   for (i in 11:end){
     playDF1Home[,i] <- NA
   }
   # Naming the columns after the players
   columnNames <- lapply(USUPlayers, paste, "player", sep="")
-  names(playDF1Home)[11:end] <- columnNames
+  names(playDF1Home)[12:end] <- columnNames
   
   # Adding a space at the end so the next regular expression will work
   playDF1Home$tokens <- gsub("$", " ", playDF1Home$tokens)
   
   # Using regular expressions and a for loop to cycle through players, and create
   # indicator variables if that player played in that volley.
-  j <- 11
+  j <- 12
   for (i in USUPlayers){
     test <- paste(":", i, sep="") %>%
       paste("\\s", sep="")
@@ -121,6 +122,7 @@ homeVisitorTeamDF <- function(df, homeVisitor){
     playDF1Home[!grepl(test, playDF1Home$tokens),j] <- 0
     j <- j+1
   }
+  playDF1Home[,12:end] <- lapply(playDF1Home[,12:end], as.factor)
   playDF1Home$point <- as.factor(playDF1Home$point)
   return(playDF1Home)
 }
@@ -166,9 +168,9 @@ remove(stat_list, stat_final_list, playerInfo_1, playerInfo_2, playerInfo)
 plays = xmlDoc$plays
 
 # Create 1st, 2nd, and 3rd game dataframes 
-playDF1 <- makePlayDf(plays[[1]])
-playDF2 <- makePlayDf(plays[[2]])
-playDF3 <- makePlayDf(plays[[3]])
+playDF1 <- makePlayDf(plays[[1]], 1)
+playDF2 <- makePlayDf(plays[[2]], 2)
+playDF3 <- makePlayDf(plays[[3]], 3)
 
 # Creating Home team sub dataframe
 game1df <- homeVisitorTeamDF(playDF1, "Home")
@@ -177,14 +179,14 @@ game3df <- homeVisitorTeamDF(playDF3, "Home")
 
 # Running a random forest predicting point based off of the players
 set.seed(33)
-game1RF <- randomForest(x = game1df[,11:18], 
+game1RF <- randomForest(x = game1df[,12:19], 
                         y = game1df[,3], 
                         importance = TRUE,
                         which.class = "USU")
 varImpPlot(game1RF)
 
 
-game2RF <- randomForest(x = game2df[,11:18], 
+game2RF <- randomForest(x = game2df[,12:21], 
                         y = game2df[,3], 
                         importance = TRUE,
                         which.class = "USU",
@@ -193,7 +195,7 @@ game2RF <- randomForest(x = game2df[,11:18],
                         mtry = 4)
 varImpPlot(game2RF)
 
-game3RF <- randomForest(x = game3df[,11:18], 
+game3RF <- randomForest(x = game3df[,12:21], 
                         y = game3df[,3], 
                         importance = TRUE,
                         which.class = "USU",
@@ -203,6 +205,7 @@ varImpPlot(game3RF)
 
 game1RF$confusion
 game2RF$confusion
+game3RF$confusion
 
 # Finding how much each player played in the game
 x <- c(sum(game1df$`8player`), sum(game1df$`6player`), sum(game1df$`3player`), sum(game1df$`2player`),
@@ -210,24 +213,27 @@ sum(game1df$`13player`), sum(game1df$`26player`), sum(game1df$`10player`), sum(g
 hist(x)
 
 
-# Binds the three games together.
-test <- list(game1df, game2df, game3df)
-test1 <- rbindlist(test, fill=TRUE) 
-test1[is.na(test1)] <- 0
+# Binds the three games together into one match
+matchList <- list(game1df, game2df, game3df)
+Matchdf <- rbindlist(matchList, fill=TRUE) 
+Matchdf[is.na(Matchdf)] <- 0
 
 # Creating a Random Forest predicting point off of each player for the whole match
-matchRF <- randomForest(x = test1[,11:21],
-                        y = as.factor(test1$point),
+matchRF <- randomForest(x = Matchdf[,11:21],
+                        y = as.factor(Matchdf$point),
                         importance = TRUE,
                         which.class = "USU",
                         classwt = c(.5,.5))
 matchRF$confusion
 varImpPlot(matchRF)
 
-# TODO: Look at making the indicators for players into factor levels
+Matchdf[,12:22] <- lapply(Matchdf[,12:22], as.numeric)
 
-test1.2 <- test1 %>% select(primaryKey,`8player`:`5player`) %>% group_by(primaryKey) %>% summarize_all(sum)
-test1.3 <- left_join(test1.2, test1, by="primaryKey")
+test1.2 <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey, gameNumber) %>% summarize_all(sum)
+test1.3 <- left_join(test1.2, Matchdf, by="playKey")
+
+test1.4 <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey) %>% summarize_all(sum)
+
 # TODO: Use join to get the "point" in the same df as the summarized 
 # player indicators
 
