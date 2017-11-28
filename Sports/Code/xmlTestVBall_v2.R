@@ -3,12 +3,13 @@
 #install.packages("data.table") 
 
 # Load required packages
-require(XML)
-require(data.table)
-require(magrittr)
-require(tidyr)
+library(XML)
+library(data.table)
+library(magrittr)
+library(tidyr)
 library(dplyr)
 library(randomForest)
+library(gsubfn)
 library(sqldf)
 
 # Functions --------------------------------------------------------------------
@@ -130,7 +131,7 @@ homeVisitorTeamDF <- function(df, homeVisitor){
 # Main Code ------------------------------------------------------------------------
 # Parse the xml file
 #xmlTest = xmlParse(file = "../Data/Volleyball/2017/2017ULM.xml")
-xmlTest = xmlParse(file = "2017ULM.xml")
+xmlTest = xmlParse(file = "Sports/Data/Volleyball/2017/2017ULM.xml")
 
 # Convert the xml file to a lists of lists in R
 xmlDoc = xmlToList(xmlTest)
