@@ -102,7 +102,7 @@ homeVisitorTeamDF <- function(df, homeVisitor){
   
   # Creating Dummy Variable columns
   end <- 11+length(USUPlayers)
-  for (i in 11:end){
+  for (i in 12:end){
     playDF1Home[,i] <- NA
   }
   # Naming the columns after the players
@@ -126,7 +126,6 @@ homeVisitorTeamDF <- function(df, homeVisitor){
   playDF1Home$point <- as.factor(playDF1Home$point)
   return(playDF1Home)
 }
-
 # Main Code ------------------------------------------------------------------------
 # Parse the xml file
 #xmlTest = xmlParse(file = "../Data/Volleyball/2017/2017ULM.xml")
@@ -135,7 +134,7 @@ xmlTest = xmlParse(file = "2017ULM.xml")
 # Convert the xml file to a lists of lists in R
 xmlDoc = xmlToList(xmlTest)
 
-# If I were to simply ask for the "team" tag, I would only get the FIRST instance of the tag. 
+# If I were to simply ask for the "team" tag, I would only get the FIRST instance of the tag.
 # I want to extract all "team" tags in the document
 playerInfo = xmlDoc[which(names(xmlDoc) == "team")]
 
@@ -167,7 +166,7 @@ remove(stat_list, stat_final_list, playerInfo_1, playerInfo_2, playerInfo)
 ### Make data table of the play by play ###
 plays = xmlDoc$plays
 
-# Create 1st, 2nd, and 3rd game dataframes 
+# Create 1st, 2nd, and 3rd game dataframes
 playDF1 <- makePlayDf(plays[[1]], 1)
 playDF2 <- makePlayDf(plays[[2]], 2)
 playDF3 <- makePlayDf(plays[[3]], 3)
@@ -179,15 +178,15 @@ game3df <- homeVisitorTeamDF(playDF3, "Home")
 
 # Running a random forest predicting point based off of the players
 set.seed(33)
-game1RF <- randomForest(x = game1df[,12:19], 
-                        y = game1df[,3], 
+game1RF <- randomForest(x = game1df[,12:19],
+                        y = game1df[,3],
                         importance = TRUE,
                         which.class = "USU")
 varImpPlot(game1RF)
 
 
-game2RF <- randomForest(x = game2df[,12:21], 
-                        y = game2df[,3], 
+game2RF <- randomForest(x = game2df[,12:21],
+                        y = game2df[,3],
                         importance = TRUE,
                         which.class = "USU",
                         classwt = c(.5, .5),
@@ -195,8 +194,8 @@ game2RF <- randomForest(x = game2df[,12:21],
                         mtry = 4)
 varImpPlot(game2RF)
 
-game3RF <- randomForest(x = game3df[,12:21], 
-                        y = game3df[,3], 
+game3RF <- randomForest(x = game3df[,12:21],
+                        y = game3df[,3],
                         importance = TRUE,
                         which.class = "USU",
                         mtry = 4)
@@ -215,11 +214,12 @@ hist(x)
 
 # Binds the three games together into one match
 matchList <- list(game1df, game2df, game3df)
-Matchdf <- rbindlist(matchList, fill=TRUE) 
+Matchdf <- rbindlist(matchList, fill=TRUE)
 Matchdf[is.na(Matchdf)] <- 0
 
 # Creating a Random Forest predicting point off of each player for the whole match
-matchRF <- randomForest(x = Matchdf[,11:21],
+# This uses each volley to predict
+matchRF <- randomForest(x = Matchdf[,12:22],
                         y = as.factor(Matchdf$point),
                         importance = TRUE,
                         which.class = "USU")
@@ -230,22 +230,23 @@ varImpPlot(matchRF)
 Matchdf[,12:22] <- lapply(Matchdf[,12:22], as.character)
 Matchdf[,12:22] <- lapply(Matchdf[,12:22], as.numeric)
 
-
 # Grouping by playKey and GameNumber to put volleys back into plays
 playsMatchdf <- Matchdf %>% select(playKey, gameNumber, `8player`:`5player`) %>% group_by(playKey, gameNumber) %>% summarize_all(sum)
-pointGroupedDF <- Matchdf %>% 
-  select(playKey, gameNumber, point) %>% 
-  group_by(playKey, gameNumber) %>% 
-  arrange(playKey, gameNumber) %>% 
+pointGroupedDF <- Matchdf %>%
+  select(playKey, gameNumber, point) %>%
+  group_by(playKey, gameNumber) %>%
+  arrange(playKey, gameNumber) %>%
   slice(1)
 
 
-test1.3 <- cbind(playsMatchdf, pointGroupedDF)
-test1.3[,3:13] <- lapply(test1.3[,3:13], as.factor)
+groupedMatchDF <- cbind(playsMatchdf, pointGroupedDF)
+groupedMatchDF[,3:13] <- lapply(groupedMatchDF[,3:13], as.factor)
 
-groupedMatchRF <- randomForest(x = test1.3[,3:13],
-                        y = as.factor(test1.3$point),
+set.seed(123)
+groupedMatchRF <- randomForest(x = groupedMatchDF[,3:13],
+                        y = as.factor(groupedMatchDF$point),
                         importance = TRUE,
-                        which.class = "USU")
+                        which.class = "USU",
+                        ntree = 1000)
 groupedMatchRF$confusion
 varImpPlot(matchRF)
