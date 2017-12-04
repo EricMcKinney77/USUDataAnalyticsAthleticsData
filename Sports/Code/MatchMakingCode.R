@@ -307,6 +307,9 @@ USUvBallRF <- randomForest(x = RFprepDF[,2:(length(RFprepDF)-1)],
 USUvBallRF$confusion
 varImpPlot(USUvBallRF)
 
+# Making the explanatory variables not factors
+RFprepDF[]
+
 # Rerun Random Forest, but with only factor levels of 1 or 0 for players
 USUvBallDF_1_0 <- RFprepDF %>%
   mutate(`2player` = as.factor(ifelse(`2player`=="0", "0", "1")),
@@ -340,3 +343,16 @@ USUvBallDF_1_0RF <- randomForest(x = USUvBallDF_1_0[,2:(length(USUvBallDF_1_0)-1
                            ntree = 1000)
 USUvBallDF_1_0RF$confusion
 varImpPlot(USUvBallDF_1_0RF)
+
+
+RFprepDF[,2:23] <- lapply(RFprepDF[,2:23], as.character)
+RFprepDF[,2:23] <- lapply(RFprepDF[,2:23], as.numeric)
+
+USUvBallRF_v2 <- randomForest(x = RFprepDF[,2:(length(RFprepDF)-1)],
+                           y = as.factor(RFprepDF$Response),
+                           importance = TRUE,
+                           which.class = 1,
+                           ntree = 1000)
+USUvBallRF_v2$confusion
+varImpPlot(USUvBallRF)
+
